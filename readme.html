@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>README</title>
+<link rel="icon" type="image/png" href="favicon2.png">
+<link rel="shortcut icon" href="favicon.ico">
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+    color: #111111;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Sticky black header */
+  header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 24px;
+    min-height: 64px;
+    z-index: 1000;
+  }
+
+  /* Logo on the left */
+  .logo-link {
+    display: flex;
+    align-items: center;
+    height: 64px;
+  }
+
+  .logo-link img {
+    height: 40px;
+    width: auto;
+    display: block;
+  }
+
+  /* Hamburger button (hidden on desktop) */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 26px;
+    height: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .hamburger span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    border-radius: 1px;
+  }
+
+  /* Nav links on the right */
+  nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 8px 0;
+  }
+
+  nav a {
+    color: #FAFAFA;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+  }
+
+  nav a:hover {
+    color: #cccccc;
+  }
+
+  /* ---- Main content ---- */
+  main {
+    flex: 1;
+    padding: 48px 24px;
+    max-width: 720px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  /* ---- Typography ---- */
+  .readme-eyebrow {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #b31b1b;
+    margin-bottom: 12px;
+  }
+
+  main h1 {
+    font-size: 36px;
+    line-height: 1.15;
+    margin-bottom: 24px;
+  }
+
+  .lead {
+    font-size: 18px;
+    line-height: 1.65;
+    color: #333333;
+    margin-bottom: 48px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid #eeeeee;
+  }
+
+  .section {
+    margin-bottom: 48px;
+  }
+
+  .section h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+
+  .section p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333333;
+    margin-bottom: 12px;
+  }
+
+  .section p:last-child {
+    margin-bottom: 0;
+  }
+
+  /* ---- File list ---- */
+  .file-list {
+    list-style: none;
+    border-top: 1px solid #eeeeee;
+  }
+
+  .file-list li {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    padding: 14px 0;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 15px;
+  }
+
+  .file-name {
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: bold;
+    color: #111111;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .file-desc {
+    color: #555555;
+    line-height: 1.5;
+  }
+
+  /* ---- Club/company tags ---- */
+  .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+  }
+
+  .tag {
+    font-size: 13px;
+    padding: 5px 12px;
+    border: 1px solid #000000;
+    color: #111111;
+  }
+
+  .tag.accent {
+    border-color: #b31b1b;
+    color: #b31b1b;
+  }
+
+  /* ---- Divider ---- */
+  .divider {
+    border: none;
+    border-top: 1px solid #eeeeee;
+    margin: 48px 0;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #000000;
+    color: #FAFAFA;
+    padding: 32px 24px;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  footer p {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  footer p:last-child {
+    margin-bottom: 0;
+  }
+
+  /* ---- Mobile ---- */
+  @media (max-width: 600px) {
+    header {
+      padding: 0 16px;
+      justify-content: space-between;
+      text-align: center;
+    }
+
+    .logo-link {
+      height: 56px;
+    }
+
+    .logo-link img {
+      height: 32px;
+    }
+
+    .hamburger {
+      display: flex;
+    }
+
+    nav {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      width: 100%;
+      padding: 0;
+    }
+
+    nav.open {
+      display: flex;
+    }
+
+    nav a {
+      font-size: 16px;
+      width: 100%;
+      padding: 12px 0;
+      border-top: 1px solid #333333;
+    }
+
+    footer {
+      padding: 24px 16px;
+    }
+  }
+</style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="logo-link">
+      <img src="logo2.png" alt="Logo">
+    </a>
+    <button class="hamburger" id="hamburger-btn" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav id="main-nav">
+      <a href="readme.html">README</a>
+      <a href="search.html">Search</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <p class="readme-eyebrow">README</p>
+    <br>
+    <h1>The Product</h1>
+    <p class="lead">
+        Everyone knows the name of the game. Brave the endless coffee chats, the application, multi-round interviews (run by people no more than two years older than you) to get into the right club, work your way up to Executive Board by any means, network at every turn, and soon you'll be looking at
+        an offer letter from the company of your choice. The not-so-easy part is choosing which club to spend 10 hours a week for the next 4 years. 
+        <br>
+        <br>
+        At its heart, Elitist is a centralized database that tracks where alumni from Cornell's engineering and finance student organizations end up working at. Normally, all this information
+        is scattered across Reddit posts, word of mouth intel during Clubfest, and self-congratulatory club info sessions. 
+    </p>
+    <h1>The Data & Methodology</h1>
+    <p class="lead">
+        Placement data and number of alumni tracked are sourced using the alumni tool from LinkedIn, which can be accessed by going to Cornell's page. Placement numbers were obtained using the [Club Name] + [Where they currently work] search query. 
+        Data breakdowns by major and class year as well as the current member count for each club was obtained from the club's website itself, which sometimes listed members' major and grad year. In edge cases where people double majored, both their majors would be counted,
+        which sometimes means that the total number in the major breakdown can slightly exceed the current member count.  
+    </p>
+
+    <div class="section">
+      <h2>Clubs currently tracked</h2>
+      <div class="tag-list">
+        <span class="tag">Cornell FSAE Racing</span>
+        <span class="tag">Cornell Finance Club</span>
+        <span class="tag">Cornell Data Science</span>
+        <span class="tag">Cornell FinTech Club</span>
+        <span class="tag">Cornell Rocketry Team</span>
+        <span class="tag">Cornell DTI</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Companies in the dataset</h2>
+      <div class="tag-list">
+        <span class="tag accent">SpaceX</span>
+        <span class="tag accent">Goldman Sachs</span>
+        <span class="tag accent">Microsoft</span>
+        <span class="tag accent">Jane Street</span>
+        <span class="tag accent">Lockheed Martin</span>
+        <span class="tag accent">Meta</span>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Elitist. All rights reserved. For informational purposes only.</p>
+    <p>Not affiliated with Cornell University or any of its student organizations</p>
+    <p>Email joinelitist@gmail.com to report any errors</p>
+  </footer>
+
+  <script>
+    const hamburgerBtn = document.getElementById('hamburger-btn');
+    const mainNav = document.getElementById('main-nav');
+
+    hamburgerBtn.addEventListener('click', function () {
+      const isOpen = mainNav.classList.toggle('open');
+      hamburgerBtn.setAttribute('aria-expanded', isOpen);
+    });
+  </script>
+
+</body>
+</html>
