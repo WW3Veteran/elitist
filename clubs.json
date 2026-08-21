@@ -1,0 +1,4180 @@
+{
+  "Cornell Rocketry Team (CRT)": {
+    "current_member_count": 54,
+    "alumni_tracked": 171,
+    "placements": {
+      "faang": {
+        "percentage": "8.77%",
+        "fraction": "15/171"
+      },
+      "mangos": {
+        "percentage": "11.7%",
+        "fraction": "20/171"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "9.94%",
+        "fraction": "17/171"
+      },
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "8.19%",
+        "fraction": "14/171"
+      },
+      {
+        "industry": "Defense Tech",
+        "percentage": "2.92%",
+        "fraction": "5/171"
+      },
+      {
+        "industry": "Research",
+        "percentage": "2.34%",
+        "fraction": "4/171"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "1.75%",
+        "fraction": "3/171"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": [
+      {
+        "major": "Mechanical Engineering",
+        "percentage": "42.59%",
+        "fraction": "23/54"
+      },
+      {
+        "major": "ECE",
+        "percentage": "20.37%",
+        "fraction": "11/54"
+      },
+      {
+        "major": "Computer Science",
+        "percentage": "18.52%",
+        "fraction": "10/54"
+      },
+      {
+        "major": "Engineering Physics",
+        "percentage": "3.7%",
+        "fraction": "2/54"
+      },
+      {
+        "major": "AEM",
+        "percentage": "1.85%",
+        "fraction": "1/54"
+      }
+    ]
+  },
+  "Cornell Design Build Fly (CUDBF)": {
+    "current_member_count": 29,
+    "alumni_tracked": 57,
+    "placements": {
+      "faang": {
+        "percentage": "0.0%",
+        "fraction": "0/57"
+      },
+      "mangos": {
+        "percentage": "1.75%",
+        "fraction": "1/57"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "12.28%",
+        "fraction": "7/57"
+      },
+      {
+        "industry": "Software",
+        "percentage": "0.0%",
+        "fraction": "0/57"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "0.0%",
+        "fraction": "0/57"
+      },
+      {
+        "industry": "Defense Tech",
+        "percentage": "0.0%",
+        "fraction": "0/57"
+      },
+      {
+        "industry": "Automotive",
+        "percentage": "0.0%",
+        "fraction": "0/57"
+      }
+    ]
+  },
+  "CUAir": {
+    "current_member_count": 83,
+    "alumni_tracked": 212,
+    "placements": {
+      "faang": {
+        "percentage": "11.79%",
+        "fraction": "25/212"
+      },
+      "mangos": {
+        "percentage": "10.85%",
+        "fraction": "23/212"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "15.09%",
+        "fraction": "32/212"
+      },
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "6.13%",
+        "fraction": "13/212"
+      },
+      {
+        "industry": "Defense Tech",
+        "percentage": "1.89%",
+        "fraction": "4/212"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "1.42%",
+        "fraction": "3/212"
+      },
+      {
+        "industry": "Automotive",
+        "percentage": "0.94%",
+        "fraction": "2/212"
+      }
+    ],
+    "grad_year_distribution": [
+      {
+        "class": "Freshman",
+        "percentage": "24.1%",
+        "fraction": "20/83"
+      },
+      {
+        "class": "Sophomore",
+        "percentage": "33.73%",
+        "fraction": "28/83"
+      },
+      {
+        "class": "Junior",
+        "percentage": "31.33%",
+        "fraction": "26/83"
+      },
+      {
+        "class": "Senior",
+        "percentage": "9.64%",
+        "fraction": "8/83"
+      }
+    ],
+    "top_5_majors": [
+      {
+        "major": "Computer Science",
+        "percentage": "44.58%",
+        "fraction": "37/83"
+      },
+      {
+        "major": "Mechanical Engineering",
+        "percentage": "33.73%",
+        "fraction": "28/83"
+      },
+      {
+        "major": "ECE",
+        "percentage": "16.87%",
+        "fraction": "14/83"
+      },
+      {
+        "major": "Mathematics",
+        "percentage": "6.02%",
+        "fraction": "5/83"
+      },
+      {
+        "major": "Materials Science & Engineering",
+        "percentage": "2.41%",
+        "fraction": "2/83"
+      }
+    ]
+  },
+  "Cornell University Autonomous Drone (CUAD)": {
+    "current_member_count": 39,
+    "alumni_tracked": 64,
+    "placements": {
+      "faang": {
+        "percentage": "1.56%",
+        "fraction": "1/64"
+      },
+      "mangos": {
+        "percentage": "4.69%",
+        "fraction": "3/64"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "6.25%",
+        "fraction": "4/64"
+      },
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "6.25%",
+        "fraction": "4/64"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "1.56%",
+        "fraction": "1/64"
+      },
+      {
+        "industry": "Pharma",
+        "percentage": "1.56%",
+        "fraction": "1/64"
+      },
+      {
+        "industry": "Defense Tech",
+        "percentage": "0.0%",
+        "fraction": "0/64"
+      }
+    ],
+    "grad_year_distribution": [
+      {
+        "class": "Freshman",
+        "percentage": "28.21%",
+        "fraction": "11/39"
+      },
+      {
+        "class": "Sophomore",
+        "percentage": "33.33%",
+        "fraction": "13/39"
+      },
+      {
+        "class": "Junior",
+        "percentage": "35.9%",
+        "fraction": "14/39"
+      },
+      {
+        "class": "Senior",
+        "percentage": "2.56%",
+        "fraction": "1/39"
+      }
+    ],
+    "top_5_majors": [
+      {
+        "major": "Mechanical Engineering",
+        "percentage": "30.77%",
+        "fraction": "12/39"
+      },
+      {
+        "major": "Computer Science",
+        "percentage": "25.64%",
+        "fraction": "10/39"
+      },
+      {
+        "major": "ECE",
+        "percentage": "23.08%",
+        "fraction": "9/39"
+      },
+      {
+        "major": "ORIE",
+        "percentage": "5.13%",
+        "fraction": "2/39"
+      },
+      {
+        "major": "Economics",
+        "percentage": "5.13%",
+        "fraction": "2/39"
+      }
+    ]
+  },
+  "Cornell Mars Rover (CMR)": {
+    "current_member_count": 51,
+    "alumni_tracked": 255,
+    "placements": {
+      "faang": {
+        "percentage": "10.59%",
+        "fraction": "27/255"
+      },
+      "mangos": {
+        "percentage": "10.98%",
+        "fraction": "28/255"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "12.16%",
+        "fraction": "31/255"
+      },
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "7.84%",
+        "fraction": "20/255"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "3.92%",
+        "fraction": "10/255"
+      },
+      {
+        "industry": "Research",
+        "percentage": "1.96%",
+        "fraction": "5/255"
+      },
+      {
+        "industry": "Defense Tech",
+        "percentage": "1.18%",
+        "fraction": "3/255"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": "No Data Available"
+  },
+  "Cornell Hyperloop": {
+    "current_member_count": 41,
+    "alumni_tracked": 198,
+    "placements": {
+      "faang": {
+        "percentage": "7.07%",
+        "fraction": "14/198"
+      },
+      "mangos": {
+        "percentage": "8.59%",
+        "fraction": "17/198"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "10.1%",
+        "fraction": "20/198"
+      },
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "4.55%",
+        "fraction": "9/198"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "1.52%",
+        "fraction": "3/198"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "1.01%",
+        "fraction": "2/198"
+      },
+      {
+        "industry": "Defense Tech",
+        "percentage": "1.01%",
+        "fraction": "2/198"
+      }
+    ]
+  },
+  "Cornell Racing (FSAE)": {
+    "current_member_count": 69,
+    "alumni_tracked": 164,
+    "placements": {
+      "faang": {
+        "percentage": "2.44%",
+        "fraction": "4/164"
+      },
+      "mangos": {
+        "percentage": "9.76%",
+        "fraction": "16/164"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "13.41%",
+        "fraction": "22/164"
+      },
+      {
+        "industry": "Defense Tech",
+        "percentage": "7.93%",
+        "fraction": "13/164"
+      },
+      {
+        "industry": "Automotive",
+        "percentage": "5.49%",
+        "fraction": "9/164"
+      },
+      {
+        "industry": "Software",
+        "percentage": "2.44%",
+        "fraction": "4/164"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "2.44%",
+        "fraction": "4/164"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": "No Data Available"
+  },
+  "Cornell Baja Racing": {
+    "current_member_count": 44,
+    "alumni_tracked": 161,
+    "placements": {
+      "faang": {
+        "percentage": "4.35%",
+        "fraction": "7/161"
+      },
+      "mangos": {
+        "percentage": "7.45%",
+        "fraction": "12/161"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "7.45%",
+        "fraction": "12/161"
+      },
+      {
+        "industry": "Automotive",
+        "percentage": "7.45%",
+        "fraction": "12/161"
+      },
+      {
+        "industry": "Software",
+        "percentage": "6.21%",
+        "fraction": "10/161"
+      },
+      {
+        "industry": "Defense Tech",
+        "percentage": "4.97%",
+        "fraction": "8/161"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "1.86%",
+        "fraction": "3/161"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": [
+      {
+        "major": "Mechanical Engineering",
+        "percentage": "70.45%",
+        "fraction": "31/44"
+      },
+      {
+        "major": "Engineering Physics",
+        "percentage": "6.82%",
+        "fraction": "3/44"
+      },
+      {
+        "major": "ECE",
+        "percentage": "4.55%",
+        "fraction": "2/44"
+      },
+      {
+        "major": "Economics",
+        "percentage": "4.55%",
+        "fraction": "2/44"
+      },
+      {
+        "major": "Physics",
+        "percentage": "2.27%",
+        "fraction": "1/44"
+      }
+    ]
+  },
+  "Cornell Electric Vehicles (CEV)": {
+    "current_member_count": 64,
+    "alumni_tracked": 173,
+    "placements": {
+      "faang": {
+        "percentage": "9.83%",
+        "fraction": "17/173"
+      },
+      "mangos": {
+        "percentage": "9.83%",
+        "fraction": "17/173"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "12.72%",
+        "fraction": "22/173"
+      },
+      {
+        "industry": "Automotive",
+        "percentage": "5.78%",
+        "fraction": "10/173"
+      },
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "3.47%",
+        "fraction": "6/173"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "2.31%",
+        "fraction": "4/173"
+      },
+      {
+        "industry": "Defense Tech",
+        "percentage": "1.73%",
+        "fraction": "3/173"
+      }
+    ],
+    "grad_year_distribution": [
+      {
+        "class": "Freshman",
+        "percentage": "17.19%",
+        "fraction": "11/64"
+      },
+      {
+        "class": "Sophomore",
+        "percentage": "37.5%",
+        "fraction": "24/64"
+      },
+      {
+        "class": "Junior",
+        "percentage": "29.69%",
+        "fraction": "19/64"
+      },
+      {
+        "class": "Senior",
+        "percentage": "15.62%",
+        "fraction": "10/64"
+      }
+    ],
+    "top_5_majors": [
+      {
+        "major": "Computer Science",
+        "percentage": "35.94%",
+        "fraction": "23/64"
+      },
+      {
+        "major": "Mechanical and Aerospace Engineering",
+        "percentage": "35.94%",
+        "fraction": "23/64"
+      },
+      {
+        "major": "ECE",
+        "percentage": "34.38%",
+        "fraction": "22/64"
+      },
+      {
+        "major": "ORIE",
+        "percentage": "9.38%",
+        "fraction": "6/64"
+      },
+      {
+        "major": "Mathematics",
+        "percentage": "1.56%",
+        "fraction": "1/64"
+      }
+    ]
+  },
+  "Cornell University Autonomous Underwater Vehicle (CUAUV)": {
+    "current_member_count": 55,
+    "alumni_tracked": 218,
+    "placements": {
+      "faang": {
+        "percentage": "8.26%",
+        "fraction": "18/218"
+      },
+      "mangos": {
+        "percentage": "8.72%",
+        "fraction": "19/218"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "12.84%",
+        "fraction": "28/218"
+      },
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "5.05%",
+        "fraction": "11/218"
+      },
+      {
+        "industry": "Defense Tech",
+        "percentage": "2.75%",
+        "fraction": "6/218"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "2.75%",
+        "fraction": "6/218"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "1.38%",
+        "fraction": "3/218"
+      }
+    ],
+    "grad_year_distribution": [
+      {
+        "class": "Freshman",
+        "percentage": "25.45%",
+        "fraction": "14/55"
+      },
+      {
+        "class": "Sophomore",
+        "percentage": "36.36%",
+        "fraction": "20/55"
+      },
+      {
+        "class": "Junior",
+        "percentage": "14.55%",
+        "fraction": "8/55"
+      },
+      {
+        "class": "Senior",
+        "percentage": "23.64%",
+        "fraction": "13/55"
+      }
+    ],
+    "top_5_majors": "No Data Available"
+  },
+  "Cornell University Autoboat": {
+    "current_member_count": 66,
+    "alumni_tracked": 114,
+    "placements": {
+      "faang": {
+        "percentage": "6.14%",
+        "fraction": "7/114"
+      },
+      "mangos": {
+        "percentage": "1.75%",
+        "fraction": "2/114"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "8.77%",
+        "fraction": "10/114"
+      },
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "3.51%",
+        "fraction": "4/114"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "2.63%",
+        "fraction": "3/114"
+      },
+      {
+        "industry": "Defense Tech",
+        "percentage": "2.63%",
+        "fraction": "3/114"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "2.63%",
+        "fraction": "3/114"
+      }
+    ],
+    "grad_year_distribution": [
+      {
+        "class": "Freshman",
+        "percentage": "27.27%",
+        "fraction": "18/66"
+      },
+      {
+        "class": "Sophomore",
+        "percentage": "31.82%",
+        "fraction": "21/66"
+      },
+      {
+        "class": "Junior",
+        "percentage": "27.27%",
+        "fraction": "18/66"
+      },
+      {
+        "class": "Senior",
+        "percentage": "12.12%",
+        "fraction": "8/66"
+      }
+    ],
+    "top_5_majors": [
+      {
+        "major": "Computer Science",
+        "percentage": "43.94%",
+        "fraction": "29/66"
+      },
+      {
+        "major": "Mechanical Engineering",
+        "percentage": "15.15%",
+        "fraction": "10/66"
+      },
+      {
+        "major": "ECE",
+        "percentage": "15.15%",
+        "fraction": "10/66"
+      },
+      {
+        "major": "Mechanical and Aerospace Engineering",
+        "percentage": "10.61%",
+        "fraction": "7/66"
+      },
+      {
+        "major": "Mathematics",
+        "percentage": "6.06%",
+        "fraction": "4/66"
+      }
+    ]
+  },
+  "CUSail": {
+    "current_member_count": 49,
+    "alumni_tracked": 107,
+    "placements": {
+      "faang": {
+        "percentage": "3.74%",
+        "fraction": "4/107"
+      },
+      "mangos": {
+        "percentage": "2.8%",
+        "fraction": "3/107"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "5.61%",
+        "fraction": "6/107"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "1.87%",
+        "fraction": "2/107"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "1.87%",
+        "fraction": "2/107"
+      },
+      {
+        "industry": "Defense Tech",
+        "percentage": "0.93%",
+        "fraction": "1/107"
+      },
+      {
+        "industry": "Automotive",
+        "percentage": "0.93%",
+        "fraction": "1/107"
+      }
+    ],
+    "grad_year_distribution": [
+      {
+        "class": "Freshman",
+        "percentage": "32.65%",
+        "fraction": "16/49"
+      },
+      {
+        "class": "Sophomore",
+        "percentage": "38.78%",
+        "fraction": "19/49"
+      },
+      {
+        "class": "Junior",
+        "percentage": "18.37%",
+        "fraction": "9/49"
+      },
+      {
+        "class": "Senior",
+        "percentage": "10.2%",
+        "fraction": "5/49"
+      }
+    ],
+    "top_5_majors": [
+      {
+        "major": "Mechanical Engineering",
+        "percentage": "38.78%",
+        "fraction": "19/49"
+      },
+      {
+        "major": "ECE",
+        "percentage": "22.45%",
+        "fraction": "11/49"
+      },
+      {
+        "major": "Computer Science",
+        "percentage": "22.45%",
+        "fraction": "11/49"
+      },
+      {
+        "major": "Physics",
+        "percentage": "4.08%",
+        "fraction": "2/49"
+      },
+      {
+        "major": "Economics",
+        "percentage": "4.08%",
+        "fraction": "2/49"
+      }
+    ]
+  },
+  "Combat Robotics At Cornell (CRC)": {
+    "current_member_count": 50,
+    "alumni_tracked": 93,
+    "placements": {
+      "faang": {
+        "percentage": "1.08%",
+        "fraction": "1/93"
+      },
+      "mangos": {
+        "percentage": "1.08%",
+        "fraction": "1/93"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "5.38%",
+        "fraction": "5/93"
+      },
+      {
+        "industry": "Software",
+        "percentage": "4.3%",
+        "fraction": "4/93"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "4.3%",
+        "fraction": "4/93"
+      },
+      {
+        "industry": "Defense Tech",
+        "percentage": "4.3%",
+        "fraction": "4/93"
+      },
+      {
+        "industry": "Research",
+        "percentage": "2.15%",
+        "fraction": "2/93"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": "No Data Available"
+  },
+  "Cornell App Development (AppDev)": {
+    "current_member_count": 65,
+    "alumni_tracked": 303,
+    "placements": {
+      "faang": {
+        "percentage": "12.21%",
+        "fraction": "37/303"
+      },
+      "mangos": {
+        "percentage": "9.57%",
+        "fraction": "29/303"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "18.48%",
+        "fraction": "56/303"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "4.29%",
+        "fraction": "13/303"
+      },
+      {
+        "industry": "Quant",
+        "percentage": "1.65%",
+        "fraction": "5/303"
+      },
+      {
+        "industry": "Defense Tech",
+        "percentage": "0.99%",
+        "fraction": "3/303"
+      },
+      {
+        "industry": "Pharma",
+        "percentage": "0.33%",
+        "fraction": "1/303"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": "No Data Available"
+  },
+  "Cornell Digital Tech & Innovation (DTI)": {
+    "current_member_count": 85,
+    "alumni_tracked": 134,
+    "placements": {
+      "faang": {
+        "percentage": "10.45%",
+        "fraction": "14/134"
+      },
+      "mangos": {
+        "percentage": "7.46%",
+        "fraction": "10/134"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "22.39%",
+        "fraction": "30/134"
+      },
+      {
+        "industry": "Defense Tech",
+        "percentage": "1.49%",
+        "fraction": "2/134"
+      },
+      {
+        "industry": "Quant",
+        "percentage": "1.49%",
+        "fraction": "2/134"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "0.75%",
+        "fraction": "1/134"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "0.0%",
+        "fraction": "0/134"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": "No Data Available"
+  },
+  "Cornell Hack4Impact": {
+    "current_member_count": 106,
+    "alumni_tracked": 171,
+    "placements": {
+      "faang": {
+        "percentage": "15.2%",
+        "fraction": "26/171"
+      },
+      "mangos": {
+        "percentage": "9.94%",
+        "fraction": "17/171"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "25.73%",
+        "fraction": "44/171"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "2.34%",
+        "fraction": "4/171"
+      },
+      {
+        "industry": "Defense Tech",
+        "percentage": "1.17%",
+        "fraction": "2/171"
+      },
+      {
+        "industry": "Quant",
+        "percentage": "0.58%",
+        "fraction": "1/171"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "0.0%",
+        "fraction": "0/171"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": "No Data Available"
+  },
+  "Cornell Data Science (CDS)": {
+    "current_member_count": 130,
+    "alumni_tracked": 348,
+    "placements": {
+      "faang": {
+        "percentage": "14.94%",
+        "fraction": "52/348"
+      },
+      "mangos": {
+        "percentage": "13.51%",
+        "fraction": "47/348"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "21.26%",
+        "fraction": "74/348"
+      },
+      {
+        "industry": "Quant",
+        "percentage": "4.31%",
+        "fraction": "15/348"
+      },
+      {
+        "industry": "Defense Tech",
+        "percentage": "2.01%",
+        "fraction": "7/348"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "1.44%",
+        "fraction": "5/348"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "0.86%",
+        "fraction": "3/348"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": "No Data Available"
+  },
+  "Cornell Nexus": {
+    "current_member_count": 56,
+    "alumni_tracked": 67,
+    "placements": {
+      "faang": {
+        "percentage": "4.48%",
+        "fraction": "3/67"
+      },
+      "mangos": {
+        "percentage": "5.97%",
+        "fraction": "4/67"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "8.96%",
+        "fraction": "6/67"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "2.99%",
+        "fraction": "2/67"
+      },
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "1.49%",
+        "fraction": "1/67"
+      },
+      {
+        "industry": "Automotive",
+        "percentage": "1.49%",
+        "fraction": "1/67"
+      },
+      {
+        "industry": "Energy",
+        "percentage": "1.49%",
+        "fraction": "1/67"
+      }
+    ],
+    "grad_year_distribution": [
+      {
+        "class": "Freshman",
+        "percentage": "39.29%",
+        "fraction": "22/56"
+      },
+      {
+        "class": "Sophomore",
+        "percentage": "35.71%",
+        "fraction": "20/56"
+      },
+      {
+        "class": "Junior",
+        "percentage": "23.21%",
+        "fraction": "13/56"
+      },
+      {
+        "class": "Senior",
+        "percentage": "1.79%",
+        "fraction": "1/56"
+      }
+    ],
+    "top_5_majors": [
+      {
+        "major": "Computer Science",
+        "percentage": "26.79%",
+        "fraction": "15/56"
+      },
+      {
+        "major": "Mechanical Engineering",
+        "percentage": "16.07%",
+        "fraction": "9/56"
+      },
+      {
+        "major": "ECE",
+        "percentage": "12.5%",
+        "fraction": "7/56"
+      },
+      {
+        "major": "Chemical Engineering",
+        "percentage": "10.71%",
+        "fraction": "6/56"
+      },
+      {
+        "major": "Information Science",
+        "percentage": "7.14%",
+        "fraction": "4/56"
+      }
+    ]
+  },
+  "Cornell Extended Reality (CUXR)": {
+    "current_member_count": 37,
+    "alumni_tracked": 36,
+    "placements": {
+      "faang": {
+        "percentage": "2.78%",
+        "fraction": "1/36"
+      },
+      "mangos": {
+        "percentage": "0.0%",
+        "fraction": "0/36"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "11.11%",
+        "fraction": "4/36"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "0.0%",
+        "fraction": "0/36"
+      },
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "0.0%",
+        "fraction": "0/36"
+      },
+      {
+        "industry": "Defense Tech",
+        "percentage": "0.0%",
+        "fraction": "0/36"
+      },
+      {
+        "industry": "Automotive",
+        "percentage": "0.0%",
+        "fraction": "0/36"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": [
+      {
+        "major": "Computer Science",
+        "percentage": "32.43%",
+        "fraction": "12/37"
+      },
+      {
+        "major": "ECE",
+        "percentage": "27.03%",
+        "fraction": "10/37"
+      },
+      {
+        "major": "Mechanical Engineering",
+        "percentage": "8.11%",
+        "fraction": "3/37"
+      },
+      {
+        "major": "Information Science",
+        "percentage": "8.11%",
+        "fraction": "3/37"
+      },
+      {
+        "major": "Design & Environmental Analysis",
+        "percentage": "5.41%",
+        "fraction": "2/37"
+      }
+    ]
+  },
+  "Cornell Custom Silicon Systems (C2S2)": {
+    "current_member_count": 54,
+    "alumni_tracked": 93,
+    "placements": {
+      "faang": {
+        "percentage": "5.38%",
+        "fraction": "5/93"
+      },
+      "mangos": {
+        "percentage": "6.45%",
+        "fraction": "6/93"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Semiconductor",
+        "percentage": "11.83%",
+        "fraction": "11/93"
+      },
+      {
+        "industry": "Software",
+        "percentage": "8.6%",
+        "fraction": "8/93"
+      },
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "2.15%",
+        "fraction": "2/93"
+      },
+      {
+        "industry": "Quant",
+        "percentage": "2.15%",
+        "fraction": "2/93"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "1.08%",
+        "fraction": "1/93"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": "No Data Available"
+  },
+  "Cornell SensTech": {
+    "current_member_count": 15,
+    "alumni_tracked": 24,
+    "placements": {
+      "faang": {
+        "percentage": "0.0%",
+        "fraction": "0/24"
+      },
+      "mangos": {
+        "percentage": "0.0%",
+        "fraction": "0/24"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "8.33%",
+        "fraction": "2/24"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "0.0%",
+        "fraction": "0/24"
+      },
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "0.0%",
+        "fraction": "0/24"
+      },
+      {
+        "industry": "Defense Tech",
+        "percentage": "0.0%",
+        "fraction": "0/24"
+      },
+      {
+        "industry": "Automotive",
+        "percentage": "0.0%",
+        "fraction": "0/24"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": "No Data Available"
+  },
+  "Cornell University Biomedical Device (CUBMD)": {
+    "current_member_count": 38,
+    "alumni_tracked": 55,
+    "placements": {
+      "faang": {
+        "percentage": "9.09%",
+        "fraction": "5/55"
+      },
+      "mangos": {
+        "percentage": "5.45%",
+        "fraction": "3/55"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "9.09%",
+        "fraction": "5/55"
+      },
+      {
+        "industry": "Pharma",
+        "percentage": "3.64%",
+        "fraction": "2/55"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "0.0%",
+        "fraction": "0/55"
+      },
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "0.0%",
+        "fraction": "0/55"
+      },
+      {
+        "industry": "Defense Tech",
+        "percentage": "0.0%",
+        "fraction": "0/55"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": [
+      {
+        "major": "Biomedical Engineering",
+        "percentage": "21.05%",
+        "fraction": "8/38"
+      },
+      {
+        "major": "Biological Sciences",
+        "percentage": "13.16%",
+        "fraction": "5/38"
+      },
+      {
+        "major": "Mechanical Engineering",
+        "percentage": "7.89%",
+        "fraction": "3/38"
+      },
+      {
+        "major": "ECE",
+        "percentage": "7.89%",
+        "fraction": "3/38"
+      },
+      {
+        "major": "Economics",
+        "percentage": "5.26%",
+        "fraction": "2/38"
+      }
+    ]
+  },
+  "Cornell DEBUT": {
+    "current_member_count": 47,
+    "alumni_tracked": 111,
+    "placements": {
+      "faang": {
+        "percentage": "3.6%",
+        "fraction": "4/111"
+      },
+      "mangos": {
+        "percentage": "1.8%",
+        "fraction": "2/111"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "4.5%",
+        "fraction": "5/111"
+      },
+      {
+        "industry": "Pharma",
+        "percentage": "3.6%",
+        "fraction": "4/111"
+      },
+      {
+        "industry": "Energy",
+        "percentage": "0.9%",
+        "fraction": "1/111"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "0.0%",
+        "fraction": "0/111"
+      },
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "0.0%",
+        "fraction": "0/111"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": "No Data Available"
+  },
+  "Cornell Assistive Technologies": {
+    "current_member_count": 40,
+    "alumni_tracked": 61,
+    "placements": {
+      "faang": {
+        "percentage": "1.64%",
+        "fraction": "1/61"
+      },
+      "mangos": {
+        "percentage": "0.0%",
+        "fraction": "0/61"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "3.28%",
+        "fraction": "2/61"
+      },
+      {
+        "industry": "Pharma",
+        "percentage": "1.64%",
+        "fraction": "1/61"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "1.64%",
+        "fraction": "1/61"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "0.0%",
+        "fraction": "0/61"
+      },
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "0.0%",
+        "fraction": "0/61"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": "No Data Available"
+  },
+  "Cornell Engineering World Health (EWH)": {
+    "current_member_count": 37,
+    "alumni_tracked": 129,
+    "placements": {
+      "faang": {
+        "percentage": "10.85%",
+        "fraction": "14/129"
+      },
+      "mangos": {
+        "percentage": "5.43%",
+        "fraction": "7/129"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "15.5%",
+        "fraction": "20/129"
+      },
+      {
+        "industry": "Pharma",
+        "percentage": "3.1%",
+        "fraction": "4/129"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "0.78%",
+        "fraction": "1/129"
+      },
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "0.78%",
+        "fraction": "1/129"
+      },
+      {
+        "industry": "Defense Tech",
+        "percentage": "0.78%",
+        "fraction": "1/129"
+      }
+    ],
+    "grad_year_distribution": [
+      {
+        "class": "Freshman",
+        "percentage": "27.03%",
+        "fraction": "10/37"
+      },
+      {
+        "class": "Sophomore",
+        "percentage": "37.84%",
+        "fraction": "14/37"
+      },
+      {
+        "class": "Junior",
+        "percentage": "18.92%",
+        "fraction": "7/37"
+      },
+      {
+        "class": "Senior",
+        "percentage": "13.51%",
+        "fraction": "5/37"
+      }
+    ],
+    "top_5_majors": [
+      {
+        "major": "Computer Science",
+        "percentage": "21.62%",
+        "fraction": "8/37"
+      },
+      {
+        "major": "Biomedical Engineering",
+        "percentage": "18.92%",
+        "fraction": "7/37"
+      },
+      {
+        "major": "ECE",
+        "percentage": "13.51%",
+        "fraction": "5/37"
+      },
+      {
+        "major": "HBHS",
+        "percentage": "5.41%",
+        "fraction": "2/37"
+      },
+      {
+        "major": "ORIE",
+        "percentage": "5.41%",
+        "fraction": "2/37"
+      }
+    ]
+  },
+  "Cornell Igem": {
+    "current_member_count": 49,
+    "alumni_tracked": 177,
+    "placements": {
+      "faang": {
+        "percentage": "4.52%",
+        "fraction": "8/177"
+      },
+      "mangos": {
+        "percentage": "2.26%",
+        "fraction": "4/177"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "6.21%",
+        "fraction": "11/177"
+      },
+      {
+        "industry": "Pharma",
+        "percentage": "3.39%",
+        "fraction": "6/177"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "0.56%",
+        "fraction": "1/177"
+      },
+      {
+        "industry": "Automotive",
+        "percentage": "0.56%",
+        "fraction": "1/177"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "0.56%",
+        "fraction": "1/177"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": [
+      {
+        "major": "Biological Sciences",
+        "percentage": "26.53%",
+        "fraction": "13/49"
+      },
+      {
+        "major": "Chemical Engineering",
+        "percentage": "18.37%",
+        "fraction": "9/49"
+      },
+      {
+        "major": "Biomedical Engineering",
+        "percentage": "12.24%",
+        "fraction": "6/49"
+      },
+      {
+        "major": "Computer Science",
+        "percentage": "12.24%",
+        "fraction": "6/49"
+      },
+      {
+        "major": "Biology",
+        "percentage": "10.2%",
+        "fraction": "5/49"
+      }
+    ]
+  },
+  "Cornell Concrete Canoe": {
+    "current_member_count": 61,
+    "alumni_tracked": 111,
+    "placements": {
+      "faang": {
+        "percentage": "1.8%",
+        "fraction": "2/111"
+      },
+      "mangos": {
+        "percentage": "1.8%",
+        "fraction": "2/111"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "1.8%",
+        "fraction": "2/111"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "1.8%",
+        "fraction": "2/111"
+      },
+      {
+        "industry": "Pharma",
+        "percentage": "1.8%",
+        "fraction": "2/111"
+      },
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "0.9%",
+        "fraction": "1/111"
+      },
+      {
+        "industry": "Research",
+        "percentage": "0.9%",
+        "fraction": "1/111"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": [
+      {
+        "major": "Chemical Engineering",
+        "percentage": "26.23%",
+        "fraction": "16/61"
+      },
+      {
+        "major": "Civil Engineering",
+        "percentage": "13.11%",
+        "fraction": "8/61"
+      },
+      {
+        "major": "Mechanical Engineering",
+        "percentage": "13.11%",
+        "fraction": "8/61"
+      },
+      {
+        "major": "ORIE",
+        "percentage": "8.2%",
+        "fraction": "5/61"
+      },
+      {
+        "major": "Computer Science",
+        "percentage": "4.92%",
+        "fraction": "3/61"
+      }
+    ]
+  },
+  "Cornell Steel Bridge": {
+    "current_member_count": 33,
+    "alumni_tracked": 71,
+    "placements": {
+      "faang": {
+        "percentage": "7.04%",
+        "fraction": "5/71"
+      },
+      "mangos": {
+        "percentage": "4.23%",
+        "fraction": "3/71"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "8.45%",
+        "fraction": "6/71"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "4.23%",
+        "fraction": "3/71"
+      },
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "4.23%",
+        "fraction": "3/71"
+      },
+      {
+        "industry": "Research",
+        "percentage": "1.41%",
+        "fraction": "1/71"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "1.41%",
+        "fraction": "1/71"
+      }
+    ],
+    "grad_year_distribution": [
+      {
+        "class": "Freshman",
+        "percentage": "24.24%",
+        "fraction": "8/33"
+      },
+      {
+        "class": "Sophomore",
+        "percentage": "30.3%",
+        "fraction": "10/33"
+      },
+      {
+        "class": "Junior",
+        "percentage": "33.33%",
+        "fraction": "11/33"
+      },
+      {
+        "class": "Senior",
+        "percentage": "12.12%",
+        "fraction": "4/33"
+      }
+    ],
+    "top_5_majors": [
+      {
+        "major": "Civil Engineering",
+        "percentage": "45.45%",
+        "fraction": "15/33"
+      },
+      {
+        "major": "Mechanical Engineering",
+        "percentage": "21.21%",
+        "fraction": "7/33"
+      },
+      {
+        "major": "AEM",
+        "percentage": "15.15%",
+        "fraction": "5/33"
+      },
+      {
+        "major": "Information Science",
+        "percentage": "3.03%",
+        "fraction": "1/33"
+      },
+      {
+        "major": "Physics",
+        "percentage": "3.03%",
+        "fraction": "1/33"
+      }
+    ]
+  },
+  "Cornell Seismic Design": {
+    "current_member_count": 30,
+    "alumni_tracked": 45,
+    "placements": {
+      "faang": {
+        "percentage": "0.0%",
+        "fraction": "0/45"
+      },
+      "mangos": {
+        "percentage": "6.67%",
+        "fraction": "3/45"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "11.11%",
+        "fraction": "5/45"
+      },
+      {
+        "industry": "Software",
+        "percentage": "0.0%",
+        "fraction": "0/45"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "0.0%",
+        "fraction": "0/45"
+      },
+      {
+        "industry": "Defense Tech",
+        "percentage": "0.0%",
+        "fraction": "0/45"
+      },
+      {
+        "industry": "Automotive",
+        "percentage": "0.0%",
+        "fraction": "0/45"
+      }
+    ],
+    "grad_year_distribution": [
+      {
+        "class": "Freshman",
+        "percentage": "16.67%",
+        "fraction": "5/30"
+      },
+      {
+        "class": "Sophomore",
+        "percentage": "30.0%",
+        "fraction": "9/30"
+      },
+      {
+        "class": "Junior",
+        "percentage": "20.0%",
+        "fraction": "6/30"
+      },
+      {
+        "class": "Senior",
+        "percentage": "20.0%",
+        "fraction": "6/30"
+      }
+    ],
+    "top_5_majors": [
+      {
+        "major": "Civil Engineering",
+        "percentage": "36.67%",
+        "fraction": "11/30"
+      },
+      {
+        "major": "Architecture",
+        "percentage": "26.67%",
+        "fraction": "8/30"
+      },
+      {
+        "major": "Mechanical Engineering",
+        "percentage": "13.33%",
+        "fraction": "4/30"
+      },
+      {
+        "major": "Computer Science",
+        "percentage": "6.67%",
+        "fraction": "2/30"
+      },
+      {
+        "major": "Engineering Physics",
+        "percentage": "3.33%",
+        "fraction": "1/30"
+      }
+    ]
+  },
+  "Cornell Engineers for a Sustainable World (ESW)": {
+    "current_member_count": 26,
+    "alumni_tracked": 61,
+    "placements": {
+      "faang": {
+        "percentage": "1.64%",
+        "fraction": "1/61"
+      },
+      "mangos": {
+        "percentage": "0.0%",
+        "fraction": "0/61"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "6.56%",
+        "fraction": "4/61"
+      },
+      {
+        "industry": "Research",
+        "percentage": "1.64%",
+        "fraction": "1/61"
+      },
+      {
+        "industry": "Energy",
+        "percentage": "1.64%",
+        "fraction": "1/61"
+      },
+      {
+        "industry": "Quant",
+        "percentage": "1.64%",
+        "fraction": "1/61"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "1.64%",
+        "fraction": "1/61"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": "No Data Available"
+  },
+  "Cornell AguaClara": {
+    "current_member_count": 42,
+    "alumni_tracked": 71,
+    "placements": {
+      "faang": {
+        "percentage": "0.0%",
+        "fraction": "0/71"
+      },
+      "mangos": {
+        "percentage": "0.0%",
+        "fraction": "0/71"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Pharma",
+        "percentage": "2.82%",
+        "fraction": "2/71"
+      },
+      {
+        "industry": "Research",
+        "percentage": "1.41%",
+        "fraction": "1/71"
+      },
+      {
+        "industry": "Energy",
+        "percentage": "1.41%",
+        "fraction": "1/71"
+      },
+      {
+        "industry": "Software",
+        "percentage": "0.0%",
+        "fraction": "0/71"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "0.0%",
+        "fraction": "0/71"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": "No Data Available"
+  },
+  "Cornell ChemE Car": {
+    "current_member_count": 31,
+    "alumni_tracked": 116,
+    "placements": {
+      "faang": {
+        "percentage": "2.59%",
+        "fraction": "3/116"
+      },
+      "mangos": {
+        "percentage": "3.45%",
+        "fraction": "4/116"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Pharma",
+        "percentage": "4.31%",
+        "fraction": "5/116"
+      },
+      {
+        "industry": "Software",
+        "percentage": "3.45%",
+        "fraction": "4/116"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "3.45%",
+        "fraction": "4/116"
+      },
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "1.72%",
+        "fraction": "2/116"
+      },
+      {
+        "industry": "Defense Tech",
+        "percentage": "0.86%",
+        "fraction": "1/116"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": "No Data Available"
+  },
+  "Cornell University Solar Boat (CUSB)": {
+    "current_member_count": 35,
+    "alumni_tracked": 71,
+    "placements": {
+      "faang": {
+        "percentage": "7.04%",
+        "fraction": "5/71"
+      },
+      "mangos": {
+        "percentage": "4.23%",
+        "fraction": "3/71"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "7.04%",
+        "fraction": "5/71"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "4.23%",
+        "fraction": "3/71"
+      },
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "1.41%",
+        "fraction": "1/71"
+      },
+      {
+        "industry": "Automotive",
+        "percentage": "1.41%",
+        "fraction": "1/71"
+      },
+      {
+        "industry": "Research",
+        "percentage": "1.41%",
+        "fraction": "1/71"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": [
+      {
+        "major": "Mechanical Engineering",
+        "percentage": "25.71%",
+        "fraction": "9/35"
+      },
+      {
+        "major": "Computer Science",
+        "percentage": "20.0%",
+        "fraction": "7/35"
+      },
+      {
+        "major": "Materials Science & Engineering",
+        "percentage": "17.14%",
+        "fraction": "6/35"
+      },
+      {
+        "major": "ECE",
+        "percentage": "8.57%",
+        "fraction": "3/35"
+      },
+      {
+        "major": "ORIE",
+        "percentage": "8.57%",
+        "fraction": "3/35"
+      }
+    ]
+  },
+  "Cornell University GeoData": {
+    "current_member_count": 29,
+    "alumni_tracked": 74,
+    "placements": {
+      "faang": {
+        "percentage": "1.35%",
+        "fraction": "1/74"
+      },
+      "mangos": {
+        "percentage": "1.35%",
+        "fraction": "1/74"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Semiconductor",
+        "percentage": "2.7%",
+        "fraction": "2/74"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "2.7%",
+        "fraction": "2/74"
+      },
+      {
+        "industry": "Software",
+        "percentage": "1.35%",
+        "fraction": "1/74"
+      },
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "1.35%",
+        "fraction": "1/74"
+      },
+      {
+        "industry": "Research",
+        "percentage": "1.35%",
+        "fraction": "1/74"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": "No Data Available"
+  },
+  "Cornell Engineers Without Borders (EWB)": {
+    "current_member_count": 47,
+    "alumni_tracked": 183,
+    "placements": {
+      "faang": {
+        "percentage": "2.73%",
+        "fraction": "5/183"
+      },
+      "mangos": {
+        "percentage": "3.83%",
+        "fraction": "7/183"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "9.29%",
+        "fraction": "17/183"
+      },
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "8.2%",
+        "fraction": "15/183"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "6.01%",
+        "fraction": "11/183"
+      },
+      {
+        "industry": "Pharma",
+        "percentage": "6.01%",
+        "fraction": "11/183"
+      },
+      {
+        "industry": "Automotive",
+        "percentage": "1.64%",
+        "fraction": "3/183"
+      }
+    ],
+    "grad_year_distribution": [
+      {
+        "class": "Freshman",
+        "percentage": "25.53%",
+        "fraction": "12/47"
+      },
+      {
+        "class": "Sophomore",
+        "percentage": "36.17%",
+        "fraction": "17/47"
+      },
+      {
+        "class": "Junior",
+        "percentage": "25.53%",
+        "fraction": "12/47"
+      },
+      {
+        "class": "Senior",
+        "percentage": "12.77%",
+        "fraction": "6/47"
+      }
+    ],
+    "top_5_majors": [
+      {
+        "major": "Computer Science",
+        "percentage": "46.81%",
+        "fraction": "22/47"
+      },
+      {
+        "major": "Environmental Engineering",
+        "percentage": "12.77%",
+        "fraction": "6/47"
+      },
+      {
+        "major": "Civil Engineering",
+        "percentage": "8.51%",
+        "fraction": "4/47"
+      },
+      {
+        "major": "ECE",
+        "percentage": "8.51%",
+        "fraction": "4/47"
+      },
+      {
+        "major": "Biomedical Engineering",
+        "percentage": "4.26%",
+        "fraction": "2/47"
+      }
+    ]
+  },
+  "Cornell University Engineers in Action (EIA)": {
+    "current_member_count": 23,
+    "alumni_tracked": 29,
+    "placements": {
+      "faang": {
+        "percentage": "0.0%",
+        "fraction": "0/29"
+      },
+      "mangos": {
+        "percentage": "0.0%",
+        "fraction": "0/29"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "3.45%",
+        "fraction": "1/29"
+      },
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "3.45%",
+        "fraction": "1/29"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "0.0%",
+        "fraction": "0/29"
+      },
+      {
+        "industry": "Defense Tech",
+        "percentage": "0.0%",
+        "fraction": "0/29"
+      },
+      {
+        "industry": "Automotive",
+        "percentage": "0.0%",
+        "fraction": "0/29"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": [
+      {
+        "major": "Civil Engineering",
+        "percentage": "17.39%",
+        "fraction": "4/23"
+      },
+      {
+        "major": "Environmental Engineering",
+        "percentage": "13.04%",
+        "fraction": "3/23"
+      },
+      {
+        "major": "Information Science",
+        "percentage": "13.04%",
+        "fraction": "3/23"
+      },
+      {
+        "major": "Economics",
+        "percentage": "13.04%",
+        "fraction": "3/23"
+      },
+      {
+        "major": "Mechanical Engineering",
+        "percentage": "4.35%",
+        "fraction": "1/23"
+      }
+    ]
+  },
+  "Cornell Cup Robotics": {
+    "current_member_count": 28,
+    "alumni_tracked": 300,
+    "placements": {
+      "faang": {
+        "percentage": "12.0%",
+        "fraction": "36/300"
+      },
+      "mangos": {
+        "percentage": "8.33%",
+        "fraction": "25/300"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Software",
+        "percentage": "17.0%",
+        "fraction": "51/300"
+      },
+      {
+        "industry": "Aerospace & Defense",
+        "percentage": "4.33%",
+        "fraction": "13/300"
+      },
+      {
+        "industry": "Semiconductor",
+        "percentage": "3.33%",
+        "fraction": "10/300"
+      },
+      {
+        "industry": "Automotive",
+        "percentage": "2.33%",
+        "fraction": "7/300"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "2.0%",
+        "fraction": "6/300"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": [
+      {
+        "major": "Mechanical Engineering",
+        "percentage": "39.29%",
+        "fraction": "11/28"
+      },
+      {
+        "major": "Computer Science",
+        "percentage": "28.57%",
+        "fraction": "8/28"
+      },
+      {
+        "major": "ECE",
+        "percentage": "25.0%",
+        "fraction": "7/28"
+      },
+      {
+        "major": "Information Science",
+        "percentage": "3.57%",
+        "fraction": "1/28"
+      },
+      {
+        "major": "Mathematics",
+        "percentage": "3.57%",
+        "fraction": "1/28"
+      }
+    ]
+  },
+  "Mutual Investment Club Of Cornell (MICC)": {
+    "current_member_count": 50,
+    "alumni_tracked": 296,
+    "placements": {
+      "mbb": {
+        "percentage": "1.01%",
+        "fraction": "3/296"
+      },
+      "big_4": {
+        "percentage": "0.68%",
+        "fraction": "2/296"
+      },
+      "bulge_bracket": {
+        "percentage": "10.47%",
+        "fraction": "31/296"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Banking",
+        "percentage": "13.85%",
+        "fraction": "41/296"
+      },
+      {
+        "industry": "Private Equity",
+        "percentage": "3.04%",
+        "fraction": "9/296"
+      },
+      {
+        "industry": "Professional Services",
+        "percentage": "2.7%",
+        "fraction": "8/296"
+      },
+      {
+        "industry": "Asset Management",
+        "percentage": "1.35%",
+        "fraction": "4/296"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "0.68%",
+        "fraction": "2/296"
+      }
+    ],
+    "grad_year_distribution": [
+      {
+        "class": "Freshman",
+        "percentage": "16.0%",
+        "fraction": "8/50"
+      },
+      {
+        "class": "Sophomore",
+        "percentage": "30.0%",
+        "fraction": "15/50"
+      },
+      {
+        "class": "Junior",
+        "percentage": "20.0%",
+        "fraction": "10/50"
+      },
+      {
+        "class": "Senior",
+        "percentage": "18.0%",
+        "fraction": "9/50"
+      }
+    ],
+    "top_5_majors": [
+      {
+        "major": "AEM",
+        "percentage": "30.0%",
+        "fraction": "15/50"
+      },
+      {
+        "major": "Economics",
+        "percentage": "18.0%",
+        "fraction": "9/50"
+      },
+      {
+        "major": "Hotel Administration",
+        "percentage": "12.0%",
+        "fraction": "6/50"
+      },
+      {
+        "major": "ILR",
+        "percentage": "8.0%",
+        "fraction": "4/50"
+      },
+      {
+        "major": "Mathematics",
+        "percentage": "8.0%",
+        "fraction": "4/50"
+      }
+    ]
+  },
+  "Cornell Finance Club (CFC)": {
+    "current_member_count": 52,
+    "alumni_tracked": 196,
+    "placements": {
+      "mbb": {
+        "percentage": "1.02%",
+        "fraction": "2/196"
+      },
+      "big_4": {
+        "percentage": "1.53%",
+        "fraction": "3/196"
+      },
+      "bulge_bracket": {
+        "percentage": "8.16%",
+        "fraction": "16/196"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Banking",
+        "percentage": "14.8%",
+        "fraction": "29/196"
+      },
+      {
+        "industry": "Private Equity",
+        "percentage": "4.08%",
+        "fraction": "8/196"
+      },
+      {
+        "industry": "Professional Services",
+        "percentage": "2.55%",
+        "fraction": "5/196"
+      },
+      {
+        "industry": "Asset Management",
+        "percentage": "1.53%",
+        "fraction": "3/196"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "0.51%",
+        "fraction": "1/196"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": [
+      {
+        "major": "AEM",
+        "percentage": "55.77%",
+        "fraction": "29/52"
+      },
+      {
+        "major": "Economics",
+        "percentage": "23.08%",
+        "fraction": "12/52"
+      },
+      {
+        "major": "Mathematics",
+        "percentage": "5.77%",
+        "fraction": "3/52"
+      },
+      {
+        "major": "ILR",
+        "percentage": "3.85%",
+        "fraction": "2/52"
+      },
+      {
+        "major": "Environment & Sustainability",
+        "percentage": "3.85%",
+        "fraction": "2/52"
+      }
+    ]
+  },
+  "Cornell Venture Capital (CVC)": {
+    "current_member_count": 36,
+    "alumni_tracked": 168,
+    "placements": {
+      "mbb": {
+        "percentage": "3.57%",
+        "fraction": "6/168"
+      },
+      "big_4": {
+        "percentage": "0.6%",
+        "fraction": "1/168"
+      },
+      "bulge_bracket": {
+        "percentage": "6.55%",
+        "fraction": "11/168"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Banking",
+        "percentage": "7.74%",
+        "fraction": "13/168"
+      },
+      {
+        "industry": "Professional Services",
+        "percentage": "4.76%",
+        "fraction": "8/168"
+      },
+      {
+        "industry": "Quant",
+        "percentage": "2.38%",
+        "fraction": "4/168"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "1.79%",
+        "fraction": "3/168"
+      },
+      {
+        "industry": "Private Equity",
+        "percentage": "1.19%",
+        "fraction": "2/168"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": "No Data Available"
+  },
+  "Cornell Hedge Fund Club (CHFC)": {
+    "current_member_count": 42,
+    "alumni_tracked": 224,
+    "placements": {
+      "mbb": {
+        "percentage": "3.12%",
+        "fraction": "7/224"
+      },
+      "big_4": {
+        "percentage": "0.45%",
+        "fraction": "1/224"
+      },
+      "bulge_bracket": {
+        "percentage": "8.93%",
+        "fraction": "20/224"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Banking",
+        "percentage": "12.95%",
+        "fraction": "29/224"
+      },
+      {
+        "industry": "Professional Services",
+        "percentage": "4.02%",
+        "fraction": "9/224"
+      },
+      {
+        "industry": "Private Equity",
+        "percentage": "3.12%",
+        "fraction": "7/224"
+      },
+      {
+        "industry": "Asset Management",
+        "percentage": "3.12%",
+        "fraction": "7/224"
+      },
+      {
+        "industry": "Quant",
+        "percentage": "0.89%",
+        "fraction": "2/224"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": [
+      {
+        "major": "AEM",
+        "percentage": "30.95%",
+        "fraction": "13/42"
+      },
+      {
+        "major": "Economics",
+        "percentage": "23.81%",
+        "fraction": "10/42"
+      },
+      {
+        "major": "Information Science",
+        "percentage": "9.52%",
+        "fraction": "4/42"
+      },
+      {
+        "major": "Computer Science",
+        "percentage": "9.52%",
+        "fraction": "4/42"
+      },
+      {
+        "major": "Statistics",
+        "percentage": "7.14%",
+        "fraction": "3/42"
+      }
+    ]
+  },
+  "Cornell Investment Banking Club (CIBC)": {
+    "current_member_count": 35,
+    "alumni_tracked": 147,
+    "placements": {
+      "mbb": {
+        "percentage": "0.68%",
+        "fraction": "1/147"
+      },
+      "big_4": {
+        "percentage": "0.0%",
+        "fraction": "0/147"
+      },
+      "bulge_bracket": {
+        "percentage": "18.37%",
+        "fraction": "27/147"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Banking",
+        "percentage": "25.17%",
+        "fraction": "37/147"
+      },
+      {
+        "industry": "Private Equity",
+        "percentage": "2.72%",
+        "fraction": "4/147"
+      },
+      {
+        "industry": "Asset Management",
+        "percentage": "1.36%",
+        "fraction": "2/147"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "0.68%",
+        "fraction": "1/147"
+      },
+      {
+        "industry": "Professional Services",
+        "percentage": "0.68%",
+        "fraction": "1/147"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": "No Data Available"
+  },
+  "Cornell Alpha Fund": {
+    "current_member_count": 72,
+    "alumni_tracked": 207,
+    "placements": {
+      "mbb": {
+        "percentage": "0.0%",
+        "fraction": "0/207"
+      },
+      "big_4": {
+        "percentage": "0.97%",
+        "fraction": "2/207"
+      },
+      "bulge_bracket": {
+        "percentage": "10.63%",
+        "fraction": "22/207"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Banking",
+        "percentage": "17.39%",
+        "fraction": "36/207"
+      },
+      {
+        "industry": "Asset Management",
+        "percentage": "3.38%",
+        "fraction": "7/207"
+      },
+      {
+        "industry": "Quant",
+        "percentage": "1.93%",
+        "fraction": "4/207"
+      },
+      {
+        "industry": "Professional Services",
+        "percentage": "1.45%",
+        "fraction": "3/207"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "0.97%",
+        "fraction": "2/207"
+      }
+    ],
+    "grad_year_distribution": [
+      {
+        "class": "Freshman",
+        "percentage": "25.0%",
+        "fraction": "18/72"
+      },
+      {
+        "class": "Sophomore",
+        "percentage": "27.78%",
+        "fraction": "20/72"
+      },
+      {
+        "class": "Junior",
+        "percentage": "27.78%",
+        "fraction": "20/72"
+      },
+      {
+        "class": "Senior",
+        "percentage": "15.28%",
+        "fraction": "11/72"
+      }
+    ],
+    "top_5_majors": [
+      {
+        "major": "AEM",
+        "percentage": "40.28%",
+        "fraction": "29/72"
+      },
+      {
+        "major": "Economics",
+        "percentage": "18.06%",
+        "fraction": "13/72"
+      },
+      {
+        "major": "Hotel Administration",
+        "percentage": "8.33%",
+        "fraction": "6/72"
+      },
+      {
+        "major": "Information Science",
+        "percentage": "8.33%",
+        "fraction": "6/72"
+      },
+      {
+        "major": "ILR",
+        "percentage": "8.33%",
+        "fraction": "6/72"
+      }
+    ]
+  },
+  "Cornell Alternative Investments (CAI)": {
+    "current_member_count": 55,
+    "alumni_tracked": 92,
+    "placements": {
+      "mbb": {
+        "percentage": "0.0%",
+        "fraction": "0/92"
+      },
+      "big_4": {
+        "percentage": "0.0%",
+        "fraction": "0/92"
+      },
+      "bulge_bracket": {
+        "percentage": "17.39%",
+        "fraction": "16/92"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Banking",
+        "percentage": "27.17%",
+        "fraction": "25/92"
+      },
+      {
+        "industry": "Private Equity",
+        "percentage": "2.17%",
+        "fraction": "2/92"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "1.09%",
+        "fraction": "1/92"
+      },
+      {
+        "industry": "Asset Management",
+        "percentage": "1.09%",
+        "fraction": "1/92"
+      },
+      {
+        "industry": "Venture Capital",
+        "percentage": "1.09%",
+        "fraction": "1/92"
+      }
+    ],
+    "grad_year_distribution": [
+      {
+        "class": "Freshman",
+        "percentage": "12.73%",
+        "fraction": "7/55"
+      },
+      {
+        "class": "Sophomore",
+        "percentage": "38.18%",
+        "fraction": "21/55"
+      },
+      {
+        "class": "Junior",
+        "percentage": "25.45%",
+        "fraction": "14/55"
+      },
+      {
+        "class": "Senior",
+        "percentage": "20.0%",
+        "fraction": "11/55"
+      }
+    ],
+    "top_5_majors": [
+      {
+        "major": "AEM",
+        "percentage": "38.18%",
+        "fraction": "21/55"
+      },
+      {
+        "major": "Economics",
+        "percentage": "20.0%",
+        "fraction": "11/55"
+      },
+      {
+        "major": "Hotel Administration",
+        "percentage": "16.36%",
+        "fraction": "9/55"
+      },
+      {
+        "major": "ILR",
+        "percentage": "10.91%",
+        "fraction": "6/55"
+      },
+      {
+        "major": "Government",
+        "percentage": "7.27%",
+        "fraction": "4/55"
+      }
+    ]
+  },
+  "Cornell Private Equity Club (CPEC)": {
+    "current_member_count": 41,
+    "alumni_tracked": 37,
+    "placements": {
+      "mbb": {
+        "percentage": "2.7%",
+        "fraction": "1/37"
+      },
+      "big_4": {
+        "percentage": "2.7%",
+        "fraction": "1/37"
+      },
+      "bulge_bracket": {
+        "percentage": "13.51%",
+        "fraction": "5/37"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Banking",
+        "percentage": "16.22%",
+        "fraction": "6/37"
+      },
+      {
+        "industry": "Professional Services",
+        "percentage": "5.41%",
+        "fraction": "2/37"
+      },
+      {
+        "industry": "Asset Management",
+        "percentage": "5.41%",
+        "fraction": "2/37"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "0.0%",
+        "fraction": "0/37"
+      },
+      {
+        "industry": "Private Equity",
+        "percentage": "0.0%",
+        "fraction": "0/37"
+      }
+    ],
+    "grad_year_distribution": [
+      {
+        "class": "Freshman",
+        "percentage": "24.39%",
+        "fraction": "10/41"
+      },
+      {
+        "class": "Sophomore",
+        "percentage": "31.71%",
+        "fraction": "13/41"
+      },
+      {
+        "class": "Junior",
+        "percentage": "34.15%",
+        "fraction": "14/41"
+      },
+      {
+        "class": "Senior",
+        "percentage": "9.76%",
+        "fraction": "4/41"
+      }
+    ],
+    "top_5_majors": [
+      {
+        "major": "AEM",
+        "percentage": "31.71%",
+        "fraction": "13/41"
+      },
+      {
+        "major": "Economics",
+        "percentage": "21.95%",
+        "fraction": "9/41"
+      },
+      {
+        "major": "Hotel Administration",
+        "percentage": "12.2%",
+        "fraction": "5/41"
+      },
+      {
+        "major": "ILR",
+        "percentage": "12.2%",
+        "fraction": "5/41"
+      },
+      {
+        "major": "Computer Science",
+        "percentage": "4.88%",
+        "fraction": "2/41"
+      }
+    ]
+  },
+  "Banking At Cornell (BAC)": {
+    "current_member_count": 54,
+    "alumni_tracked": 98,
+    "placements": {
+      "mbb": {
+        "percentage": "0.0%",
+        "fraction": "0/98"
+      },
+      "big_4": {
+        "percentage": "1.02%",
+        "fraction": "1/98"
+      },
+      "bulge_bracket": {
+        "percentage": "9.18%",
+        "fraction": "9/98"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Banking",
+        "percentage": "20.41%",
+        "fraction": "20/98"
+      },
+      {
+        "industry": "Private Equity",
+        "percentage": "3.06%",
+        "fraction": "3/98"
+      },
+      {
+        "industry": "Professional Services",
+        "percentage": "1.02%",
+        "fraction": "1/98"
+      },
+      {
+        "industry": "Asset Management",
+        "percentage": "1.02%",
+        "fraction": "1/98"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "0.0%",
+        "fraction": "0/98"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": [
+      {
+        "major": "AEM",
+        "percentage": "38.89%",
+        "fraction": "21/54"
+      },
+      {
+        "major": "Economics",
+        "percentage": "25.93%",
+        "fraction": "14/54"
+      },
+      {
+        "major": "Hotel Administration",
+        "percentage": "7.41%",
+        "fraction": "4/54"
+      },
+      {
+        "major": "ILR",
+        "percentage": "3.7%",
+        "fraction": "2/54"
+      },
+      {
+        "major": "Global Development",
+        "percentage": "1.85%",
+        "fraction": "1/54"
+      }
+    ]
+  },
+  "Cornell Investments Club (CIC)": {
+    "current_member_count": 36,
+    "alumni_tracked": 46,
+    "placements": {
+      "mbb": {
+        "percentage": "0.0%",
+        "fraction": "0/46"
+      },
+      "big_4": {
+        "percentage": "2.17%",
+        "fraction": "1/46"
+      },
+      "bulge_bracket": {
+        "percentage": "13.04%",
+        "fraction": "6/46"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Banking",
+        "percentage": "19.57%",
+        "fraction": "9/46"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "2.17%",
+        "fraction": "1/46"
+      },
+      {
+        "industry": "Professional Services",
+        "percentage": "2.17%",
+        "fraction": "1/46"
+      },
+      {
+        "industry": "Private Equity",
+        "percentage": "2.17%",
+        "fraction": "1/46"
+      },
+      {
+        "industry": "Asset Management",
+        "percentage": "2.17%",
+        "fraction": "1/46"
+      }
+    ],
+    "grad_year_distribution": [
+      {
+        "class": "Freshman",
+        "percentage": "11.11%",
+        "fraction": "4/36"
+      },
+      {
+        "class": "Sophomore",
+        "percentage": "47.22%",
+        "fraction": "17/36"
+      },
+      {
+        "class": "Junior",
+        "percentage": "25.0%",
+        "fraction": "9/36"
+      },
+      {
+        "class": "Senior",
+        "percentage": "13.89%",
+        "fraction": "5/36"
+      }
+    ],
+    "top_5_majors": [
+      {
+        "major": "Economics",
+        "percentage": "33.33%",
+        "fraction": "12/36"
+      },
+      {
+        "major": "AEM",
+        "percentage": "22.22%",
+        "fraction": "8/36"
+      },
+      {
+        "major": "Statistics",
+        "percentage": "8.33%",
+        "fraction": "3/36"
+      },
+      {
+        "major": "Mathematics",
+        "percentage": "8.33%",
+        "fraction": "3/36"
+      },
+      {
+        "major": "ORIE",
+        "percentage": "8.33%",
+        "fraction": "3/36"
+      }
+    ]
+  },
+  "Cornell Real Estate Club (CREC)": {
+    "current_member_count": "No Data Available",
+    "alumni_tracked": 342,
+    "placements": {
+      "mbb": {
+        "percentage": "0.58%",
+        "fraction": "2/342"
+      },
+      "big_4": {
+        "percentage": "1.17%",
+        "fraction": "4/342"
+      },
+      "bulge_bracket": {
+        "percentage": "8.77%",
+        "fraction": "30/342"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Banking",
+        "percentage": "16.37%",
+        "fraction": "56/342"
+      },
+      {
+        "industry": "Private Equity",
+        "percentage": "7.6%",
+        "fraction": "26/342"
+      },
+      {
+        "industry": "Professional Services",
+        "percentage": "2.63%",
+        "fraction": "9/342"
+      },
+      {
+        "industry": "Asset Management",
+        "percentage": "1.17%",
+        "fraction": "4/342"
+      },
+      {
+        "industry": "Quant",
+        "percentage": "0.29%",
+        "fraction": "1/342"
+      }
+    ]
+  },
+  "Impact Investing At Cornell (IIC)": {
+    "current_member_count": 60,
+    "alumni_tracked": 108,
+    "placements": {
+      "mbb": {
+        "percentage": "0.93%",
+        "fraction": "1/108"
+      },
+      "big_4": {
+        "percentage": "1.85%",
+        "fraction": "2/108"
+      },
+      "bulge_bracket": {
+        "percentage": "11.11%",
+        "fraction": "12/108"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Banking",
+        "percentage": "13.89%",
+        "fraction": "15/108"
+      },
+      {
+        "industry": "Private Equity",
+        "percentage": "4.63%",
+        "fraction": "5/108"
+      },
+      {
+        "industry": "Professional Services",
+        "percentage": "2.78%",
+        "fraction": "3/108"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "0.93%",
+        "fraction": "1/108"
+      },
+      {
+        "industry": "Quant",
+        "percentage": "0.0%",
+        "fraction": "0/108"
+      }
+    ],
+    "grad_year_distribution": [
+      {
+        "class": "Freshman",
+        "percentage": "13.33%",
+        "fraction": "8/60"
+      },
+      {
+        "class": "Sophomore",
+        "percentage": "21.67%",
+        "fraction": "13/60"
+      },
+      {
+        "class": "Junior",
+        "percentage": "33.33%",
+        "fraction": "20/60"
+      },
+      {
+        "class": "Senior",
+        "percentage": "20.0%",
+        "fraction": "12/60"
+      }
+    ],
+    "top_5_majors": [
+      {
+        "major": "AEM",
+        "percentage": "40.0%",
+        "fraction": "24/60"
+      },
+      {
+        "major": "Economics",
+        "percentage": "16.67%",
+        "fraction": "10/60"
+      },
+      {
+        "major": "Environment & Sustainability",
+        "percentage": "13.33%",
+        "fraction": "8/60"
+      },
+      {
+        "major": "Hotel Administration",
+        "percentage": "10.0%",
+        "fraction": "6/60"
+      },
+      {
+        "major": "Nutritional Sciences",
+        "percentage": "3.33%",
+        "fraction": "2/60"
+      }
+    ]
+  },
+  "Cornell Fintech Club": {
+    "current_member_count": 31,
+    "alumni_tracked": 116,
+    "placements": {
+      "mbb": {
+        "percentage": "0.86%",
+        "fraction": "1/116"
+      },
+      "big_4": {
+        "percentage": "1.72%",
+        "fraction": "2/116"
+      },
+      "bulge_bracket": {
+        "percentage": "6.9%",
+        "fraction": "8/116"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Banking",
+        "percentage": "10.34%",
+        "fraction": "12/116"
+      },
+      {
+        "industry": "Asset Management",
+        "percentage": "4.31%",
+        "fraction": "5/116"
+      },
+      {
+        "industry": "Professional Services",
+        "percentage": "2.59%",
+        "fraction": "3/116"
+      },
+      {
+        "industry": "Quant",
+        "percentage": "1.72%",
+        "fraction": "2/116"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "0.86%",
+        "fraction": "1/116"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": "No Data Available"
+  },
+  "Cornell Financial Analysts (CFA)": {
+    "current_member_count": 55,
+    "alumni_tracked": 122,
+    "placements": {
+      "mbb": {
+        "percentage": "1.64%",
+        "fraction": "2/122"
+      },
+      "big_4": {
+        "percentage": "0.0%",
+        "fraction": "0/122"
+      },
+      "bulge_bracket": {
+        "percentage": "17.21%",
+        "fraction": "21/122"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Banking",
+        "percentage": "31.15%",
+        "fraction": "38/122"
+      },
+      {
+        "industry": "Private Equity",
+        "percentage": "5.74%",
+        "fraction": "7/122"
+      },
+      {
+        "industry": "Asset Management",
+        "percentage": "2.46%",
+        "fraction": "3/122"
+      },
+      {
+        "industry": "Professional Services",
+        "percentage": "1.64%",
+        "fraction": "2/122"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "0.0%",
+        "fraction": "0/122"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": [
+      {
+        "major": "AEM",
+        "percentage": "32.73%",
+        "fraction": "18/55"
+      },
+      {
+        "major": "Economics",
+        "percentage": "23.64%",
+        "fraction": "13/55"
+      },
+      {
+        "major": "Hotel Administration",
+        "percentage": "10.91%",
+        "fraction": "6/55"
+      },
+      {
+        "major": "ORIE",
+        "percentage": "9.09%",
+        "fraction": "5/55"
+      },
+      {
+        "major": "Government",
+        "percentage": "7.27%",
+        "fraction": "4/55"
+      }
+    ]
+  },
+  "Cornell Capital Club": {
+    "current_member_count": "No Data Available",
+    "alumni_tracked": 38,
+    "placements": {
+      "mbb": {
+        "percentage": "0.0%",
+        "fraction": "0/38"
+      },
+      "big_4": {
+        "percentage": "2.63%",
+        "fraction": "1/38"
+      },
+      "bulge_bracket": {
+        "percentage": "5.26%",
+        "fraction": "2/38"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Banking",
+        "percentage": "10.53%",
+        "fraction": "4/38"
+      },
+      {
+        "industry": "Professional Services",
+        "percentage": "2.63%",
+        "fraction": "1/38"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "0.0%",
+        "fraction": "0/38"
+      },
+      {
+        "industry": "Private Equity",
+        "percentage": "0.0%",
+        "fraction": "0/38"
+      },
+      {
+        "industry": "Quant",
+        "percentage": "0.0%",
+        "fraction": "0/38"
+      }
+    ]
+  },
+  "Cornell Business Analytics (CBA)": {
+    "current_member_count": 44,
+    "alumni_tracked": 129,
+    "placements": {
+      "mbb": {
+        "percentage": "0.78%",
+        "fraction": "1/129"
+      },
+      "big_4": {
+        "percentage": "3.1%",
+        "fraction": "4/129"
+      },
+      "bulge_bracket": {
+        "percentage": "7.75%",
+        "fraction": "10/129"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Banking",
+        "percentage": "7.75%",
+        "fraction": "10/129"
+      },
+      {
+        "industry": "Professional Services",
+        "percentage": "3.1%",
+        "fraction": "4/129"
+      },
+      {
+        "industry": "Asset Management",
+        "percentage": "3.1%",
+        "fraction": "4/129"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "2.33%",
+        "fraction": "3/129"
+      },
+      {
+        "industry": "Private Equity",
+        "percentage": "2.33%",
+        "fraction": "3/129"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": [
+      {
+        "major": "Computer Science",
+        "percentage": "31.82%",
+        "fraction": "14/44"
+      },
+      {
+        "major": "ORIE",
+        "percentage": "18.18%",
+        "fraction": "8/44"
+      },
+      {
+        "major": "Information Science",
+        "percentage": "18.18%",
+        "fraction": "8/44"
+      },
+      {
+        "major": "AEM",
+        "percentage": "15.91%",
+        "fraction": "7/44"
+      },
+      {
+        "major": "Economics",
+        "percentage": "15.91%",
+        "fraction": "7/44"
+      }
+    ]
+  },
+  "Cornell Consulting Club (CCC)": {
+    "current_member_count": 30,
+    "alumni_tracked": 150,
+    "placements": {
+      "mbb": {
+        "percentage": "4.0%",
+        "fraction": "6/150"
+      },
+      "big_4": {
+        "percentage": "1.33%",
+        "fraction": "2/150"
+      },
+      "bulge_bracket": {
+        "percentage": "3.33%",
+        "fraction": "5/150"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Professional Services",
+        "percentage": "7.33%",
+        "fraction": "11/150"
+      },
+      {
+        "industry": "Banking",
+        "percentage": "3.33%",
+        "fraction": "5/150"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "1.33%",
+        "fraction": "2/150"
+      },
+      {
+        "industry": "Private Equity",
+        "percentage": "1.33%",
+        "fraction": "2/150"
+      },
+      {
+        "industry": "Quant",
+        "percentage": "0.67%",
+        "fraction": "1/150"
+      }
+    ],
+    "grad_year_distribution": [
+      {
+        "class": "Freshman",
+        "percentage": "10.0%",
+        "fraction": "3/30"
+      },
+      {
+        "class": "Sophomore",
+        "percentage": "30.0%",
+        "fraction": "9/30"
+      },
+      {
+        "class": "Junior",
+        "percentage": "46.67%",
+        "fraction": "14/30"
+      },
+      {
+        "class": "Senior",
+        "percentage": "13.33%",
+        "fraction": "4/30"
+      }
+    ],
+    "top_5_majors": [
+      {
+        "major": "Economics",
+        "percentage": "30.0%",
+        "fraction": "9/30"
+      },
+      {
+        "major": "AEM",
+        "percentage": "23.33%",
+        "fraction": "7/30"
+      },
+      {
+        "major": "Computer Science",
+        "percentage": "13.33%",
+        "fraction": "4/30"
+      },
+      {
+        "major": "Hotel Administration",
+        "percentage": "10.0%",
+        "fraction": "3/30"
+      },
+      {
+        "major": "Public Policy",
+        "percentage": "6.67%",
+        "fraction": "2/30"
+      }
+    ]
+  },
+  "Cayuga Healthcare Consulting (CHC)": {
+    "current_member_count": 44,
+    "alumni_tracked": 107,
+    "placements": {
+      "mbb": {
+        "percentage": "2.8%",
+        "fraction": "3/107"
+      },
+      "big_4": {
+        "percentage": "1.87%",
+        "fraction": "2/107"
+      },
+      "bulge_bracket": {
+        "percentage": "3.74%",
+        "fraction": "4/107"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Professional Services",
+        "percentage": "4.67%",
+        "fraction": "5/107"
+      },
+      {
+        "industry": "Banking",
+        "percentage": "3.74%",
+        "fraction": "4/107"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "0.93%",
+        "fraction": "1/107"
+      },
+      {
+        "industry": "Quant",
+        "percentage": "0.93%",
+        "fraction": "1/107"
+      },
+      {
+        "industry": "Asset Management",
+        "percentage": "0.93%",
+        "fraction": "1/107"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": [
+      {
+        "major": "Biological Sciences",
+        "percentage": "18.18%",
+        "fraction": "8/44"
+      },
+      {
+        "major": "Health Care Policy",
+        "percentage": "18.18%",
+        "fraction": "8/44"
+      },
+      {
+        "major": "Economics",
+        "percentage": "13.64%",
+        "fraction": "6/44"
+      },
+      {
+        "major": "Biology & Society",
+        "percentage": "11.36%",
+        "fraction": "5/44"
+      },
+      {
+        "major": "HBHS",
+        "percentage": "9.09%",
+        "fraction": "4/44"
+      }
+    ]
+  },
+  "180 Degrees Consulting At Cornell": {
+    "current_member_count": 50,
+    "alumni_tracked": 107,
+    "placements": {
+      "mbb": {
+        "percentage": "8.41%",
+        "fraction": "9/107"
+      },
+      "big_4": {
+        "percentage": "6.54%",
+        "fraction": "7/107"
+      },
+      "bulge_bracket": {
+        "percentage": "12.15%",
+        "fraction": "13/107"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Banking",
+        "percentage": "14.02%",
+        "fraction": "15/107"
+      },
+      {
+        "industry": "Professional Services",
+        "percentage": "11.21%",
+        "fraction": "12/107"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "1.87%",
+        "fraction": "2/107"
+      },
+      {
+        "industry": "Private Equity",
+        "percentage": "1.87%",
+        "fraction": "2/107"
+      },
+      {
+        "industry": "Asset Management",
+        "percentage": "1.87%",
+        "fraction": "2/107"
+      }
+    ],
+    "grad_year_distribution": [
+      {
+        "class": "Freshman",
+        "percentage": "34.0%",
+        "fraction": "17/50"
+      },
+      {
+        "class": "Sophomore",
+        "percentage": "30.0%",
+        "fraction": "15/50"
+      },
+      {
+        "class": "Junior",
+        "percentage": "14.0%",
+        "fraction": "7/50"
+      },
+      {
+        "class": "Senior",
+        "percentage": "22.0%",
+        "fraction": "11/50"
+      }
+    ],
+    "top_5_majors": [
+      {
+        "major": "AEM",
+        "percentage": "32.0%",
+        "fraction": "16/50"
+      },
+      {
+        "major": "Information Science",
+        "percentage": "16.0%",
+        "fraction": "8/50"
+      },
+      {
+        "major": "ILR",
+        "percentage": "16.0%",
+        "fraction": "8/50"
+      },
+      {
+        "major": "Economics",
+        "percentage": "10.0%",
+        "fraction": "5/50"
+      },
+      {
+        "major": "Computer Science",
+        "percentage": "8.0%",
+        "fraction": "4/50"
+      }
+    ]
+  },
+  "Cornell International Business Consulting (IBC)": {
+    "current_member_count": 35,
+    "alumni_tracked": 65,
+    "placements": {
+      "mbb": {
+        "percentage": "9.23%",
+        "fraction": "6/65"
+      },
+      "big_4": {
+        "percentage": "3.08%",
+        "fraction": "2/65"
+      },
+      "bulge_bracket": {
+        "percentage": "21.54%",
+        "fraction": "14/65"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Banking",
+        "percentage": "30.77%",
+        "fraction": "20/65"
+      },
+      {
+        "industry": "Professional Services",
+        "percentage": "18.46%",
+        "fraction": "12/65"
+      },
+      {
+        "industry": "Asset Management",
+        "percentage": "4.62%",
+        "fraction": "3/65"
+      },
+      {
+        "industry": "Private Equity",
+        "percentage": "1.54%",
+        "fraction": "1/65"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "0.0%",
+        "fraction": "0/65"
+      }
+    ]
+  },
+  "Design Consulting At Cornell": {
+    "current_member_count": 44,
+    "alumni_tracked": 134,
+    "placements": {
+      "mbb": {
+        "percentage": "0.0%",
+        "fraction": "0/134"
+      },
+      "big_4": {
+        "percentage": "2.99%",
+        "fraction": "4/134"
+      },
+      "bulge_bracket": {
+        "percentage": "0.75%",
+        "fraction": "1/134"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Professional Services",
+        "percentage": "3.73%",
+        "fraction": "5/134"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "2.99%",
+        "fraction": "4/134"
+      },
+      {
+        "industry": "Banking",
+        "percentage": "0.75%",
+        "fraction": "1/134"
+      },
+      {
+        "industry": "Asset Management",
+        "percentage": "0.75%",
+        "fraction": "1/134"
+      },
+      {
+        "industry": "Private Equity",
+        "percentage": "0.0%",
+        "fraction": "0/134"
+      }
+    ],
+    "grad_year_distribution": [
+      {
+        "class": "Freshman",
+        "percentage": "9.09%",
+        "fraction": "4/44"
+      },
+      {
+        "class": "Sophomore",
+        "percentage": "34.09%",
+        "fraction": "15/44"
+      },
+      {
+        "class": "Junior",
+        "percentage": "38.64%",
+        "fraction": "17/44"
+      },
+      {
+        "class": "Senior",
+        "percentage": "15.91%",
+        "fraction": "7/44"
+      }
+    ],
+    "top_5_majors": [
+      {
+        "major": "Information Science",
+        "percentage": "61.36%",
+        "fraction": "27/44"
+      },
+      {
+        "major": "Computer Science",
+        "percentage": "13.64%",
+        "fraction": "6/44"
+      },
+      {
+        "major": "Fine Arts",
+        "percentage": "4.55%",
+        "fraction": "2/44"
+      },
+      {
+        "major": "Economics",
+        "percentage": "4.55%",
+        "fraction": "2/44"
+      },
+      {
+        "major": "Architecture",
+        "percentage": "4.55%",
+        "fraction": "2/44"
+      }
+    ]
+  },
+  "Cornell Undergraduate Asia Business Society (CUABS)": {
+    "current_member_count": 40,
+    "alumni_tracked": 175,
+    "placements": {
+      "mbb": {
+        "percentage": "4.0%",
+        "fraction": "7/175"
+      },
+      "big_4": {
+        "percentage": "0.57%",
+        "fraction": "1/175"
+      },
+      "bulge_bracket": {
+        "percentage": "5.14%",
+        "fraction": "9/175"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Banking",
+        "percentage": "9.14%",
+        "fraction": "16/175"
+      },
+      {
+        "industry": "Professional Services",
+        "percentage": "5.14%",
+        "fraction": "9/175"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "1.71%",
+        "fraction": "3/175"
+      },
+      {
+        "industry": "Private Equity",
+        "percentage": "1.14%",
+        "fraction": "2/175"
+      },
+      {
+        "industry": "Asset Management",
+        "percentage": "1.14%",
+        "fraction": "2/175"
+      }
+    ],
+    "grad_year_distribution": "No Data Available",
+    "top_5_majors": [
+      {
+        "major": "AEM",
+        "percentage": "22.5%",
+        "fraction": "9/40"
+      },
+      {
+        "major": "Hotel Administration",
+        "percentage": "20.0%",
+        "fraction": "8/40"
+      },
+      {
+        "major": "Computer Science",
+        "percentage": "17.5%",
+        "fraction": "7/40"
+      },
+      {
+        "major": "Information Science",
+        "percentage": "10.0%",
+        "fraction": "4/40"
+      },
+      {
+        "major": "Economics",
+        "percentage": "10.0%",
+        "fraction": "4/40"
+      }
+    ]
+  },
+  "Social Business Consulting": {
+    "current_member_count": 39,
+    "alumni_tracked": 205,
+    "placements": {
+      "mbb": {
+        "percentage": "3.9%",
+        "fraction": "8/205"
+      },
+      "big_4": {
+        "percentage": "3.41%",
+        "fraction": "7/205"
+      },
+      "bulge_bracket": {
+        "percentage": "5.37%",
+        "fraction": "11/205"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Professional Services",
+        "percentage": "8.29%",
+        "fraction": "17/205"
+      },
+      {
+        "industry": "Banking",
+        "percentage": "5.85%",
+        "fraction": "12/205"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "0.98%",
+        "fraction": "2/205"
+      },
+      {
+        "industry": "Private Equity",
+        "percentage": "0.98%",
+        "fraction": "2/205"
+      },
+      {
+        "industry": "Asset Management",
+        "percentage": "0.98%",
+        "fraction": "2/205"
+      }
+    ],
+    "grad_year_distribution": [
+      {
+        "class": "Freshman",
+        "percentage": "15.38%",
+        "fraction": "6/39"
+      },
+      {
+        "class": "Sophomore",
+        "percentage": "30.77%",
+        "fraction": "12/39"
+      },
+      {
+        "class": "Junior",
+        "percentage": "33.33%",
+        "fraction": "13/39"
+      },
+      {
+        "class": "Senior",
+        "percentage": "20.51%",
+        "fraction": "8/39"
+      }
+    ],
+    "top_5_majors": [
+      {
+        "major": "Information Science",
+        "percentage": "25.64%",
+        "fraction": "10/39"
+      },
+      {
+        "major": "Economics",
+        "percentage": "12.82%",
+        "fraction": "5/39"
+      },
+      {
+        "major": "AEM",
+        "percentage": "12.82%",
+        "fraction": "5/39"
+      },
+      {
+        "major": "Computer Science",
+        "percentage": "7.69%",
+        "fraction": "3/39"
+      },
+      {
+        "major": "Public Policy",
+        "percentage": "5.13%",
+        "fraction": "2/39"
+      }
+    ]
+  },
+  "Cornell Quant Fund": {
+    "current_member_count": 42,
+    "alumni_tracked": 64,
+    "placements": {
+      "mbb": {
+        "percentage": "0.0%",
+        "fraction": "0/64"
+      },
+      "big_4": {
+        "percentage": "0.0%",
+        "fraction": "0/64"
+      },
+      "bulge_bracket": {
+        "percentage": "1.56%",
+        "fraction": "1/64"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Quant",
+        "percentage": "10.94%",
+        "fraction": "7/64"
+      },
+      {
+        "industry": "Asset Management",
+        "percentage": "7.81%",
+        "fraction": "5/64"
+      },
+      {
+        "industry": "Banking",
+        "percentage": "1.56%",
+        "fraction": "1/64"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "0.0%",
+        "fraction": "0/64"
+      },
+      {
+        "industry": "Professional Services",
+        "percentage": "0.0%",
+        "fraction": "0/64"
+      }
+    ],
+    "grad_year_distribution": [
+      {
+        "class": "Freshman",
+        "percentage": "21.43%",
+        "fraction": "9/42"
+      },
+      {
+        "class": "Sophomore",
+        "percentage": "23.81%",
+        "fraction": "10/42"
+      },
+      {
+        "class": "Junior",
+        "percentage": "23.81%",
+        "fraction": "10/42"
+      },
+      {
+        "class": "Senior",
+        "percentage": "19.05%",
+        "fraction": "8/42"
+      }
+    ],
+    "top_5_majors": [
+      {
+        "major": "Computer Science",
+        "percentage": "80.95%",
+        "fraction": "34/42"
+      },
+      {
+        "major": "Mathematics",
+        "percentage": "54.76%",
+        "fraction": "23/42"
+      },
+      {
+        "major": "ORIE",
+        "percentage": "14.29%",
+        "fraction": "6/42"
+      },
+      {
+        "major": "Physics",
+        "percentage": "4.76%",
+        "fraction": "2/42"
+      },
+      {
+        "major": "ECE",
+        "percentage": "4.76%",
+        "fraction": "2/42"
+      }
+    ]
+  },
+  "Cornell Blockchain": {
+    "current_member_count": "No Data Available",
+    "alumni_tracked": 207,
+    "placements": {
+      "mbb": {
+        "percentage": "1.93%",
+        "fraction": "4/207"
+      },
+      "big_4": {
+        "percentage": "1.45%",
+        "fraction": "3/207"
+      },
+      "bulge_bracket": {
+        "percentage": "3.86%",
+        "fraction": "8/207"
+      }
+    },
+    "top_5_industries": [
+      {
+        "industry": "Banking",
+        "percentage": "4.35%",
+        "fraction": "9/207"
+      },
+      {
+        "industry": "Professional Services",
+        "percentage": "3.86%",
+        "fraction": "8/207"
+      },
+      {
+        "industry": "Fintech",
+        "percentage": "2.42%",
+        "fraction": "5/207"
+      },
+      {
+        "industry": "Quant",
+        "percentage": "0.97%",
+        "fraction": "2/207"
+      },
+      {
+        "industry": "Asset Management",
+        "percentage": "0.97%",
+        "fraction": "2/207"
+      }
+    ]
+  }
+}
