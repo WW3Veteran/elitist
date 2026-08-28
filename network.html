@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7F8536CTMP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7F8536CTMP');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Networking</title>
+<link rel="icon" type="image/png" href="favicon2.png">
+<link rel="shortcut icon" href="favicon.ico">
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+  body {
+    font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #1a1a1a;
+    background: #ffffff;
+  }
+
+  /* Sticky black header */
+  header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 24px;
+    min-height: 64px;
+    z-index: 1000;
+  }
+
+  /* Logo on the left */
+  .logo-link {
+    display: flex;
+    align-items: center;
+    height: 64px;
+  }
+
+  .logo-link img {
+    height: 40px;
+    width: auto;
+    display: block;
+  }
+
+  /* Hamburger button (hidden on desktop) */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 26px;
+    height: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .hamburger span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    border-radius: 1px;
+  }
+
+  /* Nav links on the right */
+  nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 8px 0;
+  }
+
+  nav a {
+    color: #FAFAFA;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+  }
+
+  nav a:hover {
+    color: #cccccc;
+  }
+
+  /* ---- Main content ---- */
+  main {
+    flex: 1 0 auto;
+    padding: 0;
+  }
+
+  /* Footer */
+  footer {
+    flex-shrink: 0;
+    background-color: #000000;
+    color: #FAFAFA;
+    padding: 32px 24px;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  footer p {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  footer p:last-child {
+    margin-bottom: 0;
+  }
+
+  /* Mobile friendliness (from original template) */
+  @media (max-width: 600px) {
+    header {
+      padding: 0 16px;
+      justify-content: space-between;
+      text-align: center;
+    }
+
+    .logo-link {
+      height: 56px;
+    }
+
+    .logo-link img {
+      height: 32px;
+    }
+
+    .hamburger {
+      display: flex;
+    }
+
+    nav {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      width: 100%;
+      padding: 0;
+    }
+
+    nav.open {
+      display: flex;
+    }
+
+    nav a {
+      font-size: 16px;
+      width: 100%;
+      padding: 12px 0;
+      border-top: 1px solid #333333;
+    }
+
+    footer {
+      padding: 24px 16px;
+    }
+  }
+
+  /* ======================================================
+     Directory page
+     ====================================================== */
+
+  :root {
+    --accent: #b31b1b;
+    --accent-dark: #8f1515;
+    --ink: #1a1a1a;
+    --line: #e2e0da;
+    --panel: #ffffff;
+    --muted: #6b6b6b;
+  }
+
+  .directory {
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    align-items: start;
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  /* ---------- Page intro ---------- */
+  .directory-header {
+    grid-column: 1 / -1;
+    padding: 40px 32px 8px;
+  }
+
+  .directory-header .eyebrow {
+    font-size: 18px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent-dark);
+    font-weight: 700;
+  }
+
+  .directory-header h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 6px;
+    letter-spacing: -0.01em;
+  }
+
+  .directory-header p {
+    color: var(--muted);
+    margin-top: 6px;
+    font-size: 14px;
+    max-width: 640px;
+  }
+
+  /* ---------- Sidebar filters ---------- */
+  .filters {
+    position: sticky;
+    top: 64px;
+    align-self: start;
+    max-height: calc(100vh - 64px);
+    overflow-y: auto;
+    border-right: 1px solid var(--line);
+    padding: 20px 20px 40px;
+  }
+
+  .search-box {
+    margin-bottom: 18px;
+  }
+
+  .search-box input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+    background: var(--panel);
+  }
+
+  .search-box input:focus {
+    outline: 2px solid var(--accent);
+    outline-offset: 1px;
+  }
+
+  .filters-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+  }
+
+  .filters-toolbar span {
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 700;
+  }
+
+  .clear-btn {
+    background: none;
+    border: none;
+    color: var(--accent-dark);
+    font-size: 17px;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+  }
+  .clear-btn:hover { color: var(--ink); }
+
+  details.filter-group {
+    border-bottom: 1px solid var(--line);
+  }
+
+  details.filter-group summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 20px 4px;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  details.filter-group summary::-webkit-details-marker { display: none; }
+
+  details.filter-group summary::after {
+    content: "+";
+    font-weight: 400;
+    font-size: 22px;
+    color: var(--muted);
+    transition: transform 0.15s ease;
+  }
+
+  details.filter-group[open] summary::after {
+    content: "\2212"; /* minus */
+  }
+
+  .filter-desc {
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--muted);
+    margin-top: 10px;
+    padding-bottom: 8px;
+  }
+
+  .filter-search {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 15px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-family: inherit;
+  }
+
+  .filter-options {
+    max-height: 260px;
+    overflow-y: auto;
+    padding-bottom: 12px;
+  }
+
+  .filter-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 7px 2px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .filter-option:hover {
+    background: #f1efe9;
+  }
+
+  .filter-option input[type="checkbox"] {
+    accent-color: var(--accent);
+    width: 17px;
+    height: 17px;
+    flex-shrink: 0;
+  }
+
+  .filter-option .opt-name {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .filter-option .opt-count {
+    color: var(--muted);
+    font-size: 15px;
+    flex-shrink: 0;
+  }
+
+  .filter-option.hidden { display: none; }
+
+  .filter-option-meta .opt-name,
+  .filter-option-meta .opt-count {
+    color: #b31b1b;
+    font-weight: 700;
+  }
+
+  .filter-meta-divider {
+    border-top: 1px solid var(--line);
+    margin: 6px 2px 8px;
+  }
+
+  .chip-meta {
+    background: #b31b1b;
+  }
+
+  .filters-footnote {
+    margin-top: 28px;
+    padding-top: 18px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--muted);
+  }
+
+  .active-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 18px;
+  }
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--ink);
+    color: #fff;
+    font-size: 14px;
+    padding: 7px 12px 7px 14px;
+    border-radius: 999px;
+  }
+
+  .chip button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 1;
+    padding: 0;
+    opacity: 0.7;
+  }
+  .chip button:hover { opacity: 1; }
+
+  /* ---------- Results ---------- */
+  .results {
+    padding: 20px 32px 60px;
+  }
+
+  .results-meta {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 18px;
+    padding-bottom: 14px;
+    border-bottom: 2px solid var(--ink);
+  }
+
+  .results-meta .count {
+    font-size: 26px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .results-meta .label {
+    color: var(--muted);
+    font-size: 14px;
+  }
+
+  .results-grid {
+    display: flex;
+    flex-direction: column;
+    max-width: 640px;
+  }
+
+  .person-card {
+    padding: 14px 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .person-card .p-name {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--ink);
+  }
+
+  .person-card .p-meta {
+    margin-top: 3px;
+    font-size: 12px;
+    color: var(--muted);
+    line-height: 1.6;
+    word-break: break-word;
+  }
+
+  .person-card .p-meta a {
+    color: var(--muted);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+
+  .person-card .p-meta a:hover {
+    color: var(--accent-dark);
+    border-bottom-color: var(--accent-dark);
+  }
+
+  .no-results {
+    padding: 60px 0;
+    text-align: center;
+    color: var(--muted);
+  }
+
+  .show-more-wrap {
+    padding: 20px 0 8px;
+  }
+
+  .show-more-btn {
+    background: none;
+    border: 1px solid var(--ink);
+    color: var(--ink);
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 999px;
+    cursor: pointer;
+  }
+
+  .show-more-btn:hover {
+    background: var(--ink);
+    color: #fff;
+  }
+
+  @media (max-width: 860px) {
+    .directory {
+      grid-template-columns: 1fr;
+    }
+    .filters {
+      position: static;
+      max-height: none;
+      border-right: none;
+      border-bottom: 1px solid var(--line);
+    }
+    .directory-header {
+      padding: 28px 20px 8px;
+    }
+    .results {
+      padding: 16px 20px 48px;
+    }
+    .results-grid {
+      max-width: none;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .directory-header h1 {
+      font-size: 24px;
+    }
+    .directory-header p {
+      font-size: 13px;
+    }
+    .filters {
+      padding: 16px 16px 28px;
+    }
+    .results {
+      padding: 14px 16px 40px;
+    }
+    .results-meta {
+      flex-wrap: wrap;
+      gap: 4px 10px;
+    }
+    .results-meta .count {
+      font-size: 22px;
+    }
+    details.filter-group summary {
+      font-size: 16px;
+      padding: 18px 4px;
+    }
+    .filter-option {
+      font-size: 14px;
+      padding: 7px 4px;
+    }
+    .filter-option .opt-count {
+      font-size: 12px;
+    }
+    .search-box input,
+    .filter-search {
+      font-size: 16px; /* prevents iOS auto-zoom on focus */
+      padding: 10px 12px;
+    }
+    .chip {
+      font-size: 13px;
+      padding: 6px 10px 6px 12px;
+    }
+    .person-card .p-name {
+      font-size: 16px;
+    }
+    .person-card .p-meta {
+      font-size: 13px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="logo-link">
+    <img src="logo2.png" alt="Logo">
+  </a>
+  <button class="hamburger" id="hamburger-btn" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <nav id="main-nav">
+    <a href="readme.html">README</a>
+    <a href="search.html">Club Search</a>
+    <a href="network.html">Networking</a>
+    <a href="mailto:joinelitist@gmail.com">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <div class="directory">
+
+    <div class="directory-header">
+      <h1 style ="color:#b31b1b">Start Searching...</h1>
+      <p></p>
+    </div>
+
+    <aside class="filters" id="filters">
+      <div class="search-box">
+        <input type="text" id="name-search" placeholder="Search by name or email…" autocomplete="off">
+      </div>
+
+      <div class="filters-toolbar">
+        <span id="active-count">0 filters active</span>
+        <button class="clear-btn" id="clear-all">Clear all</button>
+      </div>
+
+      <div class="active-chips" id="active-chips"></div>
+
+      <div id="filter-groups"></div>
+
+      <p class="filters-footnote">
+        All information presented here is publicly obtained. 
+      </p>
+    </aside>
+
+    <section class="results">
+      <div class="results-meta">
+        <span class="count" id="result-count">…</span>
+        <span class="label">people match your filters</span>
+      </div>
+      <div class="results-grid" id="results-grid"></div>
+      <div class="no-results" id="no-results" style="display:none;">No one matches these filters yet — try removing one.</div>
+    </section>
+
+  </div>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 Elitist. All rights reserved. For informational purposes only.</p>
+  <p>Not affiliated with Cornell University or any of its student organizations</p>
+  <p>Email joinelitist@gmail.com to report any errors</p>
+</footer>
+
+<script>
+  const hamburgerBtn = document.getElementById('hamburger-btn');
+  const mainNav = document.getElementById('main-nav');
+
+  hamburgerBtn.addEventListener('click', function () {
+    const isOpen = mainNav.classList.toggle('open');
+    hamburgerBtn.setAttribute('aria-expanded', isOpen);
+  });
+</script>
+
+<script>
+(function () {
+  const CSV_FILE = 'database_v4.csv';
+  let DATA = { people: [], filters: {} };
+  let PEOPLE = [];
+  const FILTER_DEFS = [
+    { key: 'clubs',     label: 'Clubs',       field: 'clubs' },
+    { key: 'companies', label: 'Companies',    field: 'companies' },
+    { key: 'major',     label: 'Major',                   field: 'major' },
+    { key: 'gradYear',  label: 'Grad Year',                field: 'gradYear' },
+    { key: 'career',    label: 'Career Interests', field: 'career' },
+    { key: 'hobbies',   label: 'Hobbies',                 field: 'hobbies',
+      },
+  ];
+
+  // selected[key] = Set of chosen option names
+  const selected = { career: new Set(), hobbies: new Set(), companies: new Set(), clubs: new Set(), gradYear: new Set(), major: new Set() };
+
+  // Meta-groups: aggregate toggles that expand to a fixed set of underlying option values.
+  // Currently only used for Companies Worked For (Bulge Bracket / MBB / The Big Four).
+  const META_GROUPS = {
+    companies: [
+      { label: 'Bulge Bracket', members: ['Goldman Sachs', 'Morgan Stanley', 'JPMorganChase', 'Bank of America', 'Citi', 'Barclays', 'UBS', 'Deutsche Bank'] },
+      { label: 'MBB', members: ['McKinsey & Company', 'Bain & Company', 'Boston Consulting Group'] },
+      { label: 'The Big Four', members: ['PwC', 'KPMG', 'Deloitte', 'EY'] },
+    ],
+  };
+  const metaSelected = { companies: new Set() };
+  let searchText = '';
+  const PAGE_SIZE = 10;
+  let showAll = false;
+
+  const groupsEl = document.getElementById('filter-groups');
+  const resultsGrid = document.getElementById('results-grid');
+  const resultCount = document.getElementById('result-count');
+  const noResults = document.getElementById('no-results');
+  const activeChips = document.getElementById('active-chips');
+  const activeCountLabel = document.getElementById('active-count');
+
+  function buildFilterGroups() {
+    FILTER_DEFS.forEach(function (def, idx) {
+      const options = DATA.filters[def.key]; // already sorted by count desc
+      const details = document.createElement('details');
+      details.className = 'filter-group';
+
+      const summary = document.createElement('summary');
+      summary.textContent = def.label;
+      details.appendChild(summary);
+
+      const body = document.createElement('div');
+
+      // in-panel text filter for long lists (companies / clubs)
+      if (options.length > 12) {
+        const searchInput = document.createElement('input');
+        searchInput.type = 'text';
+        searchInput.className = 'filter-search';
+        searchInput.placeholder = 'Filter ' + def.label.toLowerCase() + '…';
+        searchInput.addEventListener('input', function () {
+          const q = searchInput.value.trim().toLowerCase();
+          optionRows.forEach(function (row) {
+            row.el.classList.toggle('hidden', q && row.name.toLowerCase().indexOf(q) === -1);
+          });
+        });
+        body.appendChild(searchInput);
+      }
+
+      const optWrap = document.createElement('div');
+      optWrap.className = 'filter-options';
+
+      const optionRows = [];
+
+      // Meta-group rows (e.g. Bulge Bracket / MBB) render first, styled to stand apart from individual companies
+      const metaGroupsForThisDef = META_GROUPS[def.key] || [];
+      metaGroupsForThisDef.forEach(function (group) {
+        const row = document.createElement('label');
+        row.className = 'filter-option filter-option-meta';
+
+        const cb = document.createElement('input');
+        cb.type = 'checkbox';
+        cb.value = group.label;
+        cb.addEventListener('change', function () {
+          if (cb.checked) metaSelected[def.key].add(group.label);
+          else metaSelected[def.key].delete(group.label);
+          renderChips();
+          applyFilters();
+        });
+
+        const nameSpan = document.createElement('span');
+        nameSpan.className = 'opt-name';
+        nameSpan.textContent = group.label;
+
+        const countSpan = document.createElement('span');
+        countSpan.className = 'opt-count';
+        countSpan.textContent = group.members.length + ' firms';
+
+        row.appendChild(cb);
+        row.appendChild(nameSpan);
+        row.appendChild(countSpan);
+        optWrap.appendChild(row);
+
+        def._metaRows = def._metaRows || [];
+        def._metaRows.push({ el: row, label: group.label, checkbox: cb });
+      });
+      if (metaGroupsForThisDef.length) {
+        const divider = document.createElement('div');
+        divider.className = 'filter-meta-divider';
+        optWrap.appendChild(divider);
+      }
+
+      options.forEach(function (opt) {
+        const row = document.createElement('label');
+        row.className = 'filter-option';
+
+        const cb = document.createElement('input');
+        cb.type = 'checkbox';
+        cb.value = opt.name;
+        cb.addEventListener('change', function () {
+          if (cb.checked) selected[def.key].add(opt.name);
+          else selected[def.key].delete(opt.name);
+          renderChips();
+          applyFilters();
+        });
+
+        const nameSpan = document.createElement('span');
+        nameSpan.className = 'opt-name';
+        nameSpan.textContent = opt.name;
+
+        const countSpan = document.createElement('span');
+        countSpan.className = 'opt-count';
+        countSpan.textContent = opt.count;
+
+        row.appendChild(cb);
+        row.appendChild(nameSpan);
+        row.appendChild(countSpan);
+        optWrap.appendChild(row);
+
+        optionRows.push({ el: row, name: opt.name, checkbox: cb });
+      });
+
+      body.appendChild(optWrap);
+
+      if (def.desc) {
+        const descEl = document.createElement('p');
+        descEl.className = 'filter-desc';
+        descEl.textContent = def.desc;
+        body.appendChild(descEl);
+      }
+
+      details.appendChild(body);
+      groupsEl.appendChild(details);
+
+      def._rows = optionRows; // stash for chip removal sync
+    });
+  }
+
+  function renderChips() {
+    activeChips.innerHTML = '';
+    let total = 0;
+    FILTER_DEFS.forEach(function (def) {
+      selected[def.key].forEach(function (val) {
+        total++;
+        const chip = document.createElement('span');
+        chip.className = 'chip';
+        chip.textContent = val;
+        const btn = document.createElement('button');
+        btn.textContent = '\u00d7';
+        btn.setAttribute('aria-label', 'Remove filter ' + val);
+        btn.addEventListener('click', function () {
+          selected[def.key].delete(val);
+          const row = def._rows.find(function (r) { return r.name === val; });
+          if (row) row.checkbox.checked = false;
+          renderChips();
+          applyFilters();
+        });
+        chip.appendChild(btn);
+        activeChips.appendChild(chip);
+      });
+      const activeMeta = metaSelected[def.key];
+      if (activeMeta) {
+        activeMeta.forEach(function (label) {
+          total++;
+          const chip = document.createElement('span');
+          chip.className = 'chip chip-meta';
+          chip.textContent = label;
+          const btn = document.createElement('button');
+          btn.textContent = '\u00d7';
+          btn.setAttribute('aria-label', 'Remove filter ' + label);
+          btn.addEventListener('click', function () {
+            activeMeta.delete(label);
+            const row = (def._metaRows || []).find(function (r) { return r.label === label; });
+            if (row) row.checkbox.checked = false;
+            renderChips();
+            applyFilters();
+          });
+          chip.appendChild(btn);
+          activeChips.appendChild(chip);
+        });
+      }
+    });
+    activeCountLabel.textContent = total + (total === 1 ? ' filter active' : ' filters active');
+  }
+
+  function personMatches(person) {
+    // between categories: AND. within a category: OR (any selected value present, including meta-groups like Bulge Bracket/MBB)
+    for (const def of FILTER_DEFS) {
+      const chosen = selected[def.key];
+      const activeMeta = metaSelected[def.key];
+      const hasMetaSelection = activeMeta && activeMeta.size > 0;
+      if (chosen.size === 0 && !hasMetaSelection) continue;
+      const values = person[def.field];
+      let hit = false;
+      for (const v of values) {
+        if (chosen.has(v)) { hit = true; break; }
+      }
+      if (!hit && hasMetaSelection) {
+        const groups = META_GROUPS[def.key] || [];
+        outer:
+        for (const group of groups) {
+          if (!activeMeta.has(group.label)) continue;
+          for (const v of values) {
+            if (group.members.indexOf(v) !== -1) { hit = true; break outer; }
+          }
+        }
+      }
+      if (!hit) return false;
+    }
+    if (searchText) {
+      const hay = (person.first + ' ' + person.last + ' ' + (person.email || '')).toLowerCase();
+      if (hay.indexOf(searchText) === -1) return false;
+    }
+    return true;
+  }
+
+  function renderResults() {
+    const matches = PEOPLE.filter(personMatches).sort(function (a, b) {
+      const an = (a.last + a.first).toLowerCase();
+      const bn = (b.last + b.first).toLowerCase();
+      return an < bn ? -1 : an > bn ? 1 : 0;
+    });
+
+    resultCount.textContent = matches.length;
+    resultsGrid.innerHTML = '';
+    noResults.style.display = matches.length ? 'none' : 'block';
+
+    const visible = showAll ? matches : matches.slice(0, PAGE_SIZE);
+
+    const frag = document.createDocumentFragment();
+    visible.forEach(function (p) {
+      const card = document.createElement('div');
+      card.className = 'person-card';
+
+      const name = document.createElement('div');
+      name.className = 'p-name';
+      name.textContent = p.first + ' ' + p.last;
+      card.appendChild(name);
+
+      const meta = document.createElement('div');
+      meta.className = 'p-meta';
+      const bits = [];
+      if (p.email) bits.push('<a href="mailto:' + p.email + '">' + p.email + '</a>');
+      if (p.linkedin) bits.push('<a href="' + p.linkedin + '" target="_blank" rel="noopener">LinkedIn</a>');
+      meta.innerHTML = bits.length ? bits.join('<br>') : 'No contact info listed';
+      card.appendChild(meta);
+
+      frag.appendChild(card);
+    });
+    resultsGrid.appendChild(frag);
+
+    if (matches.length > PAGE_SIZE) {
+      const toggleWrap = document.createElement('div');
+      toggleWrap.className = 'show-more-wrap';
+      const toggleBtn = document.createElement('button');
+      toggleBtn.className = 'show-more-btn';
+      if (showAll) {
+        toggleBtn.textContent = 'Show fewer results';
+      } else {
+        toggleBtn.textContent = 'Show all ' + matches.length + ' results';
+      }
+      toggleBtn.addEventListener('click', function () {
+        showAll = !showAll;
+        renderResults();
+      });
+      toggleWrap.appendChild(toggleBtn);
+      resultsGrid.appendChild(toggleWrap);
+    }
+  }
+
+  function applyFilters() {
+    showAll = false;
+    renderResults();
+  }
+
+  document.getElementById('name-search').addEventListener('input', function (e) {
+    searchText = e.target.value.trim().toLowerCase();
+    applyFilters();
+  });
+
+  document.getElementById('clear-all').addEventListener('click', function () {
+    FILTER_DEFS.forEach(function (def) {
+      selected[def.key].clear();
+      def._rows.forEach(function (r) { r.checkbox.checked = false; });
+      if (metaSelected[def.key]) {
+        metaSelected[def.key].clear();
+        (def._metaRows || []).forEach(function (r) { r.checkbox.checked = false; });
+      }
+    });
+    searchText = '';
+    document.getElementById('name-search').value = '';
+    renderChips();
+    applyFilters();
+  });
+
+  // ---------- CSV loading & parsing ----------
+
+  // Minimal RFC4180-ish CSV parser: handles quoted fields, embedded commas, and "" escaped quotes.
+  function parseCSV(text) {
+    const rows = [];
+    let row = [];
+    let field = '';
+    let inQuotes = false;
+    // normalize line endings
+    text = text.replace(/\r\n/g, '\n');
+    for (let i = 0; i < text.length; i++) {
+      const c = text[i];
+      if (inQuotes) {
+        if (c === '"') {
+          if (text[i + 1] === '"') { field += '"'; i++; }
+          else { inQuotes = false; }
+        } else {
+          field += c;
+        }
+      } else {
+        if (c === '"') {
+          inQuotes = true;
+        } else if (c === ',') {
+          row.push(field); field = '';
+        } else if (c === '\n') {
+          row.push(field); field = '';
+          rows.push(row); row = [];
+        } else {
+          field += c;
+        }
+      }
+    }
+    if (field.length || row.length) { row.push(field); rows.push(row); }
+    // drop trailing empty row from final newline
+    if (rows.length && rows[rows.length - 1].length === 1 && rows[rows.length - 1][0] === '') rows.pop();
+    return rows;
+  }
+
+  function splitField(val) {
+    if (!val || val === 'No data available') return [];
+    return val.split(';').map(function (s) { return s.trim(); }).filter(Boolean);
+  }
+
+  function buildDataFromRows(rows) {
+    if (!rows.length) return { people: [], filters: {} };
+    const header = rows[0];
+    const idx = {};
+    header.forEach(function (h, i) { idx[h.trim()] = i; });
+
+    // Pre-pass: build a case-insensitive canonical form for each hobby, title-cased (every word
+    // capitalized), so "Tennis" and "tennis" are treated as the same hobby everywhere
+    // (filter list, counts, matching) and always display with each word capitalized.
+    function titleCase(s) {
+      return s.replace(/\S+/g, function (word) {
+        return word.charAt(0).toUpperCase() + word.slice(1);
+      });
+    }
+    const hobbyCanonical = {}; // lowercase -> title-cased display form
+    for (let r = 1; r < rows.length; r++) {
+      const row = rows[r];
+      if (!row) continue;
+      splitField(row[idx['Hobbies']]).forEach(function (h) {
+        const key = h.toLowerCase();
+        if (!(key in hobbyCanonical)) hobbyCanonical[key] = titleCase(h);
+      });
+    }
+    function canonicalizeHobby(h) {
+      return hobbyCanonical[h.toLowerCase()] || titleCase(h);
+    }
+
+    const people = [];
+    const counters = { clubs: {}, companies: {}, major: {}, gradYear: {}, career: {}, hobbies: {} };
+
+    function bump(counter, key) {
+      counter[key] = (counter[key] || 0) + 1;
+    }
+
+    for (let r = 1; r < rows.length; r++) {
+      const row = rows[r];
+      if (!row || row.every(function (c) { return c === undefined || c === ''; })) continue;
+
+      const first = row[idx['First Name']] || '';
+      const last = row[idx['Last Name']] || '';
+      const email = row[idx['Email']];
+      const linkedin = row[idx['LinkedIn']];
+      const majorVal = row[idx['Major']];
+      const gradYearVal = row[idx['Grad Year']];
+      const clubs = splitField(row[idx['Clubs']]);
+      const companies = splitField(row[idx['Companies']]);
+      const career = splitField(row[idx['Career Interests']]);
+      const hobbies = splitField(row[idx['Hobbies']]).map(canonicalizeHobby);
+      const major = (majorVal && majorVal !== 'No data available') ? [majorVal] : [];
+      const gradYear = (gradYearVal && gradYearVal !== 'No data available') ? [gradYearVal] : [];
+
+      clubs.forEach(function (c) { bump(counters.clubs, c); });
+      companies.forEach(function (c) { bump(counters.companies, c); });
+      major.forEach(function (c) { bump(counters.major, c); });
+      gradYear.forEach(function (c) { bump(counters.gradYear, c); });
+      career.forEach(function (c) { bump(counters.career, c); });
+      hobbies.forEach(function (c) { bump(counters.hobbies, c); });
+
+      people.push({
+        first: first,
+        last: last,
+        email: (email && email !== 'No data available') ? email : null,
+        linkedin: (linkedin && linkedin !== 'No data available') ? linkedin : null,
+        major: major,
+        gradYear: gradYear,
+        clubs: clubs,
+        companies: companies,
+        career: career,
+        hobbies: hobbies,
+      });
+    }
+
+    function sortedList(counter, opts) {
+      opts = opts || {};
+      const minCount = opts.minCount || 1;
+      const numeric = !!opts.numeric;
+      let entries = Object.keys(counter)
+        .map(function (k) { return { name: k, count: counter[k] }; })
+        .filter(function (e) { return e.count >= minCount; });
+      if (numeric) {
+        entries.sort(function (a, b) { return a.name < b.name ? -1 : a.name > b.name ? 1 : 0; });
+      } else {
+        entries.sort(function (a, b) {
+          if (b.count !== a.count) return b.count - a.count;
+          const an = a.name.toLowerCase(), bn = b.name.toLowerCase();
+          return an < bn ? -1 : an > bn ? 1 : 0;
+        });
+      }
+      return entries;
+    }
+
+    // Grad Year filter: numeric years first (ascending), then class standing below them
+    // in Freshman -> Sophomore -> Junior -> Senior order (not alphabetical).
+    function gradYearSortedList(counter, minCount) {
+      minCount = minCount || 1;
+      const STANDING_ORDER = ['Freshman', 'Sophomore', 'Junior', 'Senior'];
+      const entries = Object.keys(counter)
+        .map(function (k) { return { name: k, count: counter[k] }; })
+        .filter(function (e) { return e.count >= minCount; });
+      const numericEntries = entries.filter(function (e) { return /^\d+$/.test(e.name); });
+      const standingEntries = entries.filter(function (e) { return !/^\d+$/.test(e.name); });
+      numericEntries.sort(function (a, b) { return a.name < b.name ? -1 : a.name > b.name ? 1 : 0; });
+      standingEntries.sort(function (a, b) {
+        return STANDING_ORDER.indexOf(a.name) - STANDING_ORDER.indexOf(b.name);
+      });
+      return numericEntries.concat(standingEntries);
+    }
+
+    return {
+      people: people,
+      filters: {
+        clubs: sortedList(counters.clubs, { minCount: 2 }),
+        companies: sortedList(counters.companies),
+        major: sortedList(counters.major),
+        gradYear: gradYearSortedList(counters.gradYear),
+        career: sortedList(counters.career),
+        hobbies: sortedList(counters.hobbies, { minCount: 2 }),
+      },
+    };
+  }
+
+  function showLoadError(message) {
+    resultsGrid.innerHTML = '';
+    resultCount.textContent = '0';
+    noResults.style.display = 'block';
+    noResults.textContent = message;
+  }
+
+  fetch(CSV_FILE)
+    .then(function (resp) {
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      return resp.text();
+    })
+    .then(function (text) {
+      const rows = parseCSV(text);
+      DATA = buildDataFromRows(rows);
+      PEOPLE = DATA.people;
+      buildFilterGroups();
+      renderChips();
+      renderResults();
+    })
+    .catch(function (err) {
+      showLoadError(
+        'Could not load ' + CSV_FILE + ' (' + err.message + '). ' +
+        'This page needs to be served from a web server with the CSV file in the same folder — ' +
+        'opening the HTML file directly (file://) will not work in most browsers due to local file restrictions.'
+      );
+    });
+})();
+</script>
+
+</body>
+</html>

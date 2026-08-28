@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7F8536CTMP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7F8536CTMP');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<link rel="icon" type="image/png" href="favicon2.png">
+<link rel="shortcut icon" href="favicon.ico">
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  /* Sticky black header */
+  header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 24px;
+    min-height: 64px;
+    z-index: 1000;
+  }
+
+  /* Logo on the left */
+  .logo-link {
+    display: flex;
+    align-items: center;
+    height: 64px;
+  }
+
+  .logo-link img {
+    height: 40px;
+    width: auto;
+    display: block;
+  }
+
+  /* Hamburger button (hidden on desktop) */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 26px;
+    height: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .hamburger span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    border-radius: 1px;
+  }
+
+  /* Nav links on the right */
+  nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 8px 0;
+  }
+
+  nav a {
+    color: #FAFAFA;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+  }
+
+  nav a:hover {
+    color: #cccccc;
+  }
+
+  /* Filler text */
+  .filler-text {
+    max-width: 1100px;
+    margin: 40px auto 0;
+    padding: 0 24px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 38.4px;
+    font-weight: bold;
+    line-height: 1.4;
+    color: #333333;
+    text-align: center;
+  }
+
+  .cycle-word {
+    color: #b31b1b;
+    font-weight: bold;
+  }
+
+  /* Search bar */
+  .search-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 24px;
+    width: 100%;
+  }
+
+  .search-container form {
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+  }
+
+  .search-container input[type="text"] {
+    flex: 1;
+    padding: 10px 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12.8px;
+    border: 1px solid #cccccc;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+  }
+
+  .search-container input[type="text"]:focus {
+    border-color: #000000;
+  }
+
+  .search-container button {
+    padding: 10px 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12.8px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+
+  .search-container button:hover {
+    background-color: #333333;
+  }
+
+  /* Search dropdown */
+  .search-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 4px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    max-height: 280px;
+    overflow-y: auto;
+    z-index: 900;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+
+  .search-dropdown.open {
+    display: block;
+  }
+
+  .search-dropdown-item {
+    padding: 10px 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #333333;
+    cursor: pointer;
+  }
+
+  .search-dropdown-item:hover,
+  .search-dropdown-item.active {
+    background-color: #f2f2f2;
+  }
+
+  .search-dropdown-empty {
+    padding: 10px 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #999999;
+  }
+
+  main {
+    padding: 0;
+  }
+
+  /* Static left-aligned text, matches filler-text styling */
+  .static-text {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 19.2px;
+    font-weight: normal;
+    line-height: 1.4;
+    color: #333333;
+    text-align: left;
+  }
+
+  /* Divider line beneath bottom text */
+  .divider {
+    max-width: 1100px;
+    margin: 32px auto 0;
+    border: none;
+    border-top: 1px solid #cccccc;
+  }
+
+  /* Bottom filler text, matches top filler-text styling */
+  .bottom-filler-text {
+    max-width: 1100px;
+    margin: 32px auto 40px;
+    padding: 0 24px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 38.4px;
+    font-weight: bold;
+    line-height: 1.4;
+    color: #333333;
+    text-align: center;
+  }
+
+  /* Heading above each card, matches bottom-filler-text styling */
+  .card-header .card-heading {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 21.6px;
+    font-weight: bold;
+    line-height: 1.4;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+  }
+
+  /* Section heading above the cards */
+  .section-heading {
+    max-width: 1100px;
+    margin: 32px auto 24px;
+    padding: 0 24px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 28.8px;
+    font-weight: bold;
+    line-height: 1.4;
+    color: #333333;
+    text-align: center;
+  }
+
+  /* Cards section */
+  .cards-container {
+    max-width: 1400px;
+    margin: 0 auto 60px;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    gap: 20px;
+  }
+
+  .cards-container .card {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  .card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .card-header {
+    width: 100%;
+    padding: 20px 20px 12px;
+    background-color: rgba(0, 0, 0, 0.08);
+  }
+
+  .card-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 20px 20px;
+  }
+
+  .card-faang {
+    background-color: #ff7870;
+  }
+
+  .card-mbb {
+    background-color: #c5ff9e;
+  }
+
+  .card-big4 {
+    background-color: #7cb7e8;
+  }
+
+  .card-bulge {
+    background-color: #ffd95b;
+  }
+
+  .card-mangos {
+    background-color: #ff964f;
+  }
+
+  .card p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    margin-top: 16px;
+  }
+
+  .card h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 8px;
+  }
+
+  .card ol {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 12px;
+    padding-left: 20px;
+    text-align: left;
+    align-self: stretch;
+  }
+
+  .card ol li {
+    margin-bottom: 14px;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #000000;
+    color: #FAFAFA;
+    padding: 32px 24px;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  footer p {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  footer p:last-child {
+    margin-bottom: 0;
+  }
+
+  /* Mobile friendliness */
+  @media (max-width: 600px) {
+    header {
+      padding: 0 16px;
+      justify-content: space-between;
+      text-align: center;
+    }
+
+    .logo-link {
+      height: 56px;
+    }
+
+    .logo-link img {
+      height: 32px;
+    }
+
+    .hamburger {
+      display: flex;
+    }
+
+    nav {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      width: 100%;
+      padding: 0;
+    }
+
+    nav.open {
+      display: flex;
+    }
+
+    nav a {
+      font-size: 16px;
+      width: 100%;
+      padding: 12px 0;
+      border-top: 1px solid #333333;
+    }
+
+    .filler-text {
+      font-size: 28.8px;
+      padding: 0 16px;
+      margin-top: 24px;
+    }
+
+    .static-text {
+      font-size: 14.4px;
+      padding: 0 16px;
+      margin-top: 0;
+    }
+
+    .divider {
+      margin-top: 24px;
+    }
+
+    .bottom-filler-text {
+      font-size: 28.8px;
+      padding: 0 16px;
+      margin: 24px auto 24px;
+    }
+
+    .search-container {
+      padding: 24px 16px;
+    }
+
+    .search-container input[type="text"],
+    .search-container button {
+      font-size: 11.2px;
+      padding: 10px 12px;
+    }
+
+    .cards-container {
+      padding: 0 16px;
+      margin-bottom: 40px;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+
+    .cards-container .card {
+      min-width: 0;
+      flex: 1 1 auto;
+      width: 100%;
+    }
+
+    .card-header .card-heading {
+      font-size: 16.2px;
+    }
+
+    .section-heading {
+      font-size: 21.6px;
+      padding: 0 16px;
+      margin: 24px auto 16px;
+    }
+
+    footer {
+      padding: 24px 16px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="logo-link">
+    <img src="logo2.png" alt="Logo">
+  </a>
+  <button class="hamburger" id="hamburger-btn" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <nav id="main-nav">
+    <a href="readme.html">README</a>
+    <a href="search.html">Club Search</a>
+    <a href="network.html">Networking</a>
+    <a href="mailto:joinelitist@gmail.com">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <h1 class="filler-text">
+    See how much people from <span class="cycle-word" data-words='["Cornell FSAE","Cornell App Development","Cornell Consulting Club","Cornell Rocketry Team"]' data-index="0">Cornell Finance Club</span> ended up at <span class="cycle-word" data-words='["SpaceX","Google","McKinsey","Lockheed Martin"]' data-index="0">Goldman Sachs</span>
+  </h1>
+  <div class="search-container">
+    <form id="search-form" action="search.html" method="get" autocomplete="off">
+      <input type="text" id="search-input" name="q" placeholder="Search by club" aria-label="Search">
+      <button type="submit">Search</button>
+      <div class="search-dropdown" id="search-dropdown"></div>
+    </form>
+  </div>
+  <p class="static-text">
+    We'll say the quiet part out loud so you don't have to. You're here because you aren't sure what club to join, but you know what companies
+    you want to someday work for, whether it be for the passion, pay, or let's be real, the prestige. Elitist has placement data on 60+ engineering and finance clubs across 
+    180+ companies. Time to see which clubs just yap and which clubs actually win. 
+  </p>
+  <br>
+  <h2 class="section-heading">The Big Leagues</h2>
+  <div class="cards-container">
+    <div class="card card-faang">
+      <div class="card-header">
+        <h2 class="card-heading">FAANG &#x1F4BB;</h2>
+      </div>
+      <div class="card-body">
+        <p>Big Tech Pre AI - Facebook (now Meta), Amazon, Apple, Netflix, Google</p>
+        <ol>
+          <li>Cornell Hack4Impact - 15.20% (26/171)</li>
+          <li>Cornell Data Science - 14.94% (52/348)</li>
+          <li>Cornell AppDev - 12.21% (37/303)</li>
+          <li>Cornell Cup Robotics - 12.00% (36/300)</li>
+          <li>CUAir - 11.79% (25/212)</li>
+        </ol>
+      </div>
+    </div>
+    <div class="card card-mangos">
+      <div class="card-header">
+        <h2 class="card-heading">MANGOS &#x1F6E0;</h2>
+      </div>
+      <div class="card-body">
+        <p>Big Tech Post AI - Meta, Anthropic, Nvidia, Google, OpenAI, SpaceX</p>
+        <ol>
+          <li>Cornell Data Science - 	13.51% (47/348)</li>
+          <li>Cornell Rocketry Team - 11.70% (20/171)</li>
+          <li>Cornell Mars Rover - 10.98% (28/255)</li>
+          <li>CUAir - 10.85% (23/212)</li>
+          <li>Cornell Hack4Impact - 9.94% (17/171)</li>
+        </ol>
+      </div>
+    </div>
+    <div class="card card-bulge">
+      <div class="card-header">
+        <h2 class="card-heading">Bulge Bracket &#x1F4B0;</h2>
+      </div>
+      <div class="card-body">
+        <p>Investment Banking - Bank of America, Barclays, Citi, Deutsche Bank, Goldman Sachs, JP MorganChase, Morgan Stanley, UBS</p>
+        <ol>
+          <li>Cornell	International Business Consulting -	21.54% (14/65)</li>
+          <li>Cornell Investment Banking Club -	18.37% (27/147)</li>
+          <li>Cornell Alternative Investments -	17.39% (16/92)</li>
+          <li>Cornell Financial Analysts - 17.21% (21/122)</li>
+          <li>Cornell Private Equity Club -	13.51% (5/37)</li>
+        </ol>
+      </div>
+    </div>
+    <div class="card card-mbb">
+      <div class="card-header">
+        <h2 class="card-heading">MBB &#x1F3AF;</h2>
+      </div>
+      <div class="card-body">
+        <p>Consulting - McKinsey & Co, Bain, Boston Consulting Group</p>
+        <ol>
+          <li>Cornell	International Business Consulting -	9.23% (6/65)</li>
+          <li>Cornell	180 Degrees Consulting -	8.41% (9/107)</li>
+          <li>Cornell Consulting Club -	4.00% (6/150)</li>
+          <li>Cornell Undergraduate Asia Business Society -	4.00% (7/175)</li>
+          <li>Social Business Consulting -	3.90% (8/205)</li>
+        </ol>
+      </div>
+    </div>
+    <div class="card card-big4">
+      <div class="card-header">
+        <h2 class="card-heading">The Big Four &#x1F4CA;</h2>
+      </div>
+      <div class="card-body">
+        <p>Accounting - Deloitte, EY, KPMG, PwC</p>
+        <ol>
+          <li>180 Degrees Consulting - 6.54% (7/107)</li>
+          <li>Social Business Consulting -	3.41% (7/205)</li>
+          <li>Cornell Business Analytics - 	3.10% (4/129)</li>
+          <li>International Business Consulting -	3.08% (2/65)</li>
+          <li>Design Consulting At Cornell -	2.99% (4/134)</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2026 Elitist. All rights reserved. For informational purposes only.</p>
+  <p>Not affiliated with Cornell University or any of its student organizations</p>
+  <p>Email joinelitist@gmail.com to report any errors</p>
+</footer>
+
+<script>
+  const hamburgerBtn = document.getElementById('hamburger-btn');
+  const mainNav = document.getElementById('main-nav');
+
+  hamburgerBtn.addEventListener('click', function () {
+    const isOpen = mainNav.classList.toggle('open');
+    hamburgerBtn.setAttribute('aria-expanded', isOpen);
+  });
+
+  document.querySelectorAll('.cycle-word').forEach(function (el) {
+    const words = JSON.parse(el.getAttribute('data-words'));
+    setInterval(function () {
+      let index = parseInt(el.getAttribute('data-index'), 10);
+      index = (index + 1) % words.length;
+      el.setAttribute('data-index', index);
+      el.textContent = words[index];
+    }, 3000);
+  });
+
+  /* ---- Club search dropdown ---- */
+  let clubNames = [];
+
+  fetch('clubs.json')
+    .then(function (res) { return res.json(); })
+    .then(function (data) {
+      clubNames = Object.keys(data);
+    })
+    .catch(function (err) {
+      console.error('Could not load clubs.json:', err);
+    });
+
+  const searchInput = document.getElementById('search-input');
+  const searchDropdown = document.getElementById('search-dropdown');
+  const searchForm = document.getElementById('search-form');
+
+  function renderDropdown(matches, query) {
+    searchDropdown.innerHTML = '';
+
+    if (!query) {
+      searchDropdown.classList.remove('open');
+      return;
+    }
+
+    if (matches.length === 0) {
+      const empty = document.createElement('div');
+      empty.className = 'search-dropdown-empty';
+      empty.textContent = 'No matching clubs found';
+      searchDropdown.appendChild(empty);
+      searchDropdown.classList.add('open');
+      return;
+    }
+
+    matches.slice(0, 8).forEach(function (name) {
+      const item = document.createElement('div');
+      item.className = 'search-dropdown-item';
+      item.textContent = name;
+      item.addEventListener('click', function () {
+        goToClub(name);
+      });
+      searchDropdown.appendChild(item);
+    });
+
+    searchDropdown.classList.add('open');
+  }
+
+  function getMatches(query) {
+    const lowerQuery = query.toLowerCase();
+    return clubNames.filter(function (name) {
+      return name.toLowerCase().includes(lowerQuery);
+    });
+  }
+
+  function goToClub(name) {
+    window.location.href = 'search.html?club=' + encodeURIComponent(name);
+  }
+
+  searchInput.addEventListener('input', function () {
+    const query = searchInput.value.trim();
+    renderDropdown(getMatches(query), query);
+  });
+
+  searchForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    const query = searchInput.value.trim();
+    if (!query) {
+      return;
+    }
+    const matches = getMatches(query);
+    if (matches.length > 0) {
+      goToClub(matches[0]);
+    }
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!searchForm.contains(e.target)) {
+      searchDropdown.classList.remove('open');
+    }
+  });
+</script>
+
+</body>
+</html>
